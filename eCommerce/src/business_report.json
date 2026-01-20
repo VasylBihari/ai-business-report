@@ -1,0 +1,682 @@
+{
+    "executive_summary": {
+        "total_revenue": 301995724.39,
+        "orders_count": 10000,
+        "units_sold": 30062,
+        "average_order_value": 30199.57
+    },
+    "monthly_sales": [
+        {
+            "order_month": "April",
+            "revenue": 24950410.65,
+            "orders": 832,
+            "units_sold": 2546
+        },
+        {
+            "order_month": "August",
+            "revenue": 25264031.98,
+            "orders": 841,
+            "units_sold": 2507
+        },
+        {
+            "order_month": "December",
+            "revenue": 21946736.69,
+            "orders": 726,
+            "units_sold": 2196
+        },
+        {
+            "order_month": "February",
+            "revenue": 23199060.32,
+            "orders": 775,
+            "units_sold": 2393
+        },
+        {
+            "order_month": "January",
+            "revenue": 26425904.77,
+            "orders": 878,
+            "units_sold": 2612
+        },
+        {
+            "order_month": "July",
+            "revenue": 26801658.28,
+            "orders": 855,
+            "units_sold": 2564
+        },
+        {
+            "order_month": "June",
+            "revenue": 23649020.33,
+            "orders": 788,
+            "units_sold": 2353
+        },
+        {
+            "order_month": "March",
+            "revenue": 25599416.15,
+            "orders": 894,
+            "units_sold": 2588
+        },
+        {
+            "order_month": "May",
+            "revenue": 26286508.96,
+            "orders": 871,
+            "units_sold": 2630
+        },
+        {
+            "order_month": "November",
+            "revenue": 25660914.18,
+            "orders": 827,
+            "units_sold": 2508
+        },
+        {
+            "order_month": "October",
+            "revenue": 25713673.72,
+            "orders": 858,
+            "units_sold": 2614
+        },
+        {
+            "order_month": "September",
+            "revenue": 26498388.36,
+            "orders": 855,
+            "units_sold": 2551
+        }
+    ],
+    "category_performance": [
+        {
+            "category": "Electronics",
+            "revenue": 92327183.77,
+            "orders": 3028,
+            "units_sold": 9036,
+            "avg_order_value": 30491.14,
+            "revenue_share_pct": 30.57
+        },
+        {
+            "category": "Fashion",
+            "revenue": 91504159.73,
+            "orders": 2970,
+            "units_sold": 8980,
+            "avg_order_value": 30809.48,
+            "revenue_share_pct": 30.3
+        },
+        {
+            "category": "Computers",
+            "revenue": 57542997.56,
+            "orders": 1953,
+            "units_sold": 5892,
+            "avg_order_value": 29463.9,
+            "revenue_share_pct": 19.05
+        },
+        {
+            "category": "Wearables",
+            "revenue": 31420413.2,
+            "orders": 1020,
+            "units_sold": 3111,
+            "avg_order_value": 30804.33,
+            "revenue_share_pct": 10.4
+        },
+        {
+            "category": "Accessories",
+            "revenue": 29200970.13,
+            "orders": 1029,
+            "units_sold": 3043,
+            "avg_order_value": 28378.01,
+            "revenue_share_pct": 9.67
+        }
+    ],
+    "top_products_by_category": [
+        {
+            "category": "Accessories",
+            "product": "Bluetooth Headset",
+            "revenue": 29200970.13,
+            "orders": 1029,
+            "units_sold": 3043,
+            "avg_price": 9709.87,
+            "revenue_share_pct": 9.67
+        },
+        {
+            "category": "Computers",
+            "product": "HP Pavilion Laptop",
+            "revenue": 29482727.14,
+            "orders": 991,
+            "units_sold": 2979,
+            "avg_price": 10012.15,
+            "revenue_share_pct": 9.76
+        },
+        {
+            "category": "Computers",
+            "product": "Dell Inspiron 3501",
+            "revenue": 28060270.42,
+            "orders": 962,
+            "units_sold": 2913,
+            "avg_price": 9585.49,
+            "revenue_share_pct": 9.29
+        },
+        {
+            "category": "Electronics",
+            "product": "Xiaomi Redmi Note 12",
+            "revenue": 33772598.37,
+            "orders": 1030,
+            "units_sold": 3187,
+            "avg_price": 10421.68,
+            "revenue_share_pct": 11.18
+        },
+        {
+            "category": "Electronics",
+            "product": "Samsung Galaxy A14",
+            "revenue": 30004263.23,
+            "orders": 1043,
+            "units_sold": 3056,
+            "avg_price": 9885.62,
+            "revenue_share_pct": 9.94
+        },
+        {
+            "category": "Electronics",
+            "product": "iPhone 13",
+            "revenue": 28550322.17,
+            "orders": 955,
+            "units_sold": 2793,
+            "avg_price": 10113.94,
+            "revenue_share_pct": 9.45
+        },
+        {
+            "category": "Fashion",
+            "product": "Nike Air Max",
+            "revenue": 30727637.51,
+            "orders": 1005,
+            "units_sold": 3040,
+            "avg_price": 10107.31,
+            "revenue_share_pct": 10.17
+        },
+        {
+            "category": "Fashion",
+            "product": "T-shirt Cotton",
+            "revenue": 30507500.4,
+            "orders": 997,
+            "units_sold": 3036,
+            "avg_price": 10029.69,
+            "revenue_share_pct": 10.1
+        },
+        {
+            "category": "Fashion",
+            "product": "Adidas Running Shoes",
+            "revenue": 30269021.82,
+            "orders": 968,
+            "units_sold": 2904,
+            "avg_price": 10349.65,
+            "revenue_share_pct": 10.02
+        },
+        {
+            "category": "Wearables",
+            "product": "Smartwatch FitPro",
+            "revenue": 31420413.2,
+            "orders": 1020,
+            "units_sold": 3111,
+            "avg_price": 10064.1,
+            "revenue_share_pct": 10.4
+        }
+    ],
+    "product_performance": [
+        {
+            "category": "Electronics",
+            "product": "Xiaomi Redmi Note 12",
+            "revenue": 33772598.37,
+            "orders": 1030,
+            "units_sold": 3187,
+            "avg_price": 10421.68,
+            "revenue_share_pct": 11.18
+        },
+        {
+            "category": "Wearables",
+            "product": "Smartwatch FitPro",
+            "revenue": 31420413.2,
+            "orders": 1020,
+            "units_sold": 3111,
+            "avg_price": 10064.1,
+            "revenue_share_pct": 10.4
+        },
+        {
+            "category": "Fashion",
+            "product": "Nike Air Max",
+            "revenue": 30727637.51,
+            "orders": 1005,
+            "units_sold": 3040,
+            "avg_price": 10107.31,
+            "revenue_share_pct": 10.17
+        },
+        {
+            "category": "Fashion",
+            "product": "T-shirt Cotton",
+            "revenue": 30507500.4,
+            "orders": 997,
+            "units_sold": 3036,
+            "avg_price": 10029.69,
+            "revenue_share_pct": 10.1
+        },
+        {
+            "category": "Fashion",
+            "product": "Adidas Running Shoes",
+            "revenue": 30269021.82,
+            "orders": 968,
+            "units_sold": 2904,
+            "avg_price": 10349.65,
+            "revenue_share_pct": 10.02
+        },
+        {
+            "category": "Electronics",
+            "product": "Samsung Galaxy A14",
+            "revenue": 30004263.23,
+            "orders": 1043,
+            "units_sold": 3056,
+            "avg_price": 9885.62,
+            "revenue_share_pct": 9.94
+        },
+        {
+            "category": "Computers",
+            "product": "HP Pavilion Laptop",
+            "revenue": 29482727.14,
+            "orders": 991,
+            "units_sold": 2979,
+            "avg_price": 10012.15,
+            "revenue_share_pct": 9.76
+        },
+        {
+            "category": "Accessories",
+            "product": "Bluetooth Headset",
+            "revenue": 29200970.13,
+            "orders": 1029,
+            "units_sold": 3043,
+            "avg_price": 9709.87,
+            "revenue_share_pct": 9.67
+        },
+        {
+            "category": "Electronics",
+            "product": "iPhone 13",
+            "revenue": 28550322.17,
+            "orders": 955,
+            "units_sold": 2793,
+            "avg_price": 10113.94,
+            "revenue_share_pct": 9.45
+        },
+        {
+            "category": "Computers",
+            "product": "Dell Inspiron 3501",
+            "revenue": 28060270.42,
+            "orders": 962,
+            "units_sold": 2913,
+            "avg_price": 9585.49,
+            "revenue_share_pct": 9.29
+        }
+    ],
+    "brand_performance": [
+        {
+            "brand": "Xiaomi",
+            "revenue": 33772598.37,
+            "orders": 1030,
+            "units_sold": 3187,
+            "avg_rating": 2.99,
+            "total_reviews": 2609353,
+            "avg_order_value": 32788.93
+        },
+        {
+            "brand": "FitPro",
+            "revenue": 31420413.2,
+            "orders": 1020,
+            "units_sold": 3111,
+            "avg_rating": 3.03,
+            "total_reviews": 2518191,
+            "avg_order_value": 30804.33
+        },
+        {
+            "brand": "Nike",
+            "revenue": 30727637.51,
+            "orders": 1005,
+            "units_sold": 3040,
+            "avg_rating": 2.96,
+            "total_reviews": 2505699,
+            "avg_order_value": 30574.76
+        },
+        {
+            "brand": "Generic",
+            "revenue": 30507500.4,
+            "orders": 997,
+            "units_sold": 3036,
+            "avg_rating": 2.95,
+            "total_reviews": 2534748,
+            "avg_order_value": 30599.3
+        },
+        {
+            "brand": "Adidas",
+            "revenue": 30269021.82,
+            "orders": 968,
+            "units_sold": 2904,
+            "avg_rating": 2.97,
+            "total_reviews": 2464191,
+            "avg_order_value": 31269.65
+        },
+        {
+            "brand": "Samsung",
+            "revenue": 30004263.23,
+            "orders": 1043,
+            "units_sold": 3056,
+            "avg_rating": 3.05,
+            "total_reviews": 2604628,
+            "avg_order_value": 28767.27
+        },
+        {
+            "brand": "HP",
+            "revenue": 29482727.14,
+            "orders": 991,
+            "units_sold": 2979,
+            "avg_rating": 3.07,
+            "total_reviews": 2526089,
+            "avg_order_value": 29750.48
+        },
+        {
+            "brand": "JBL",
+            "revenue": 29200970.13,
+            "orders": 1029,
+            "units_sold": 3043,
+            "avg_rating": 3.0,
+            "total_reviews": 2632079,
+            "avg_order_value": 28378.01
+        },
+        {
+            "brand": "Apple",
+            "revenue": 28550322.17,
+            "orders": 955,
+            "units_sold": 2793,
+            "avg_rating": 3.06,
+            "total_reviews": 2350559,
+            "avg_order_value": 29895.63
+        },
+        {
+            "brand": "Dell",
+            "revenue": 28060270.42,
+            "orders": 962,
+            "units_sold": 2913,
+            "avg_rating": 2.99,
+            "total_reviews": 2455185,
+            "avg_order_value": 29168.68
+        }
+    ],
+    "risk_brands": [
+        {
+            "brand": "Xiaomi",
+            "revenue": 33772598.37,
+            "orders": 1030,
+            "units_sold": 3187,
+            "avg_rating": 2.99,
+            "total_reviews": 2609353,
+            "avg_order_value": 32788.93
+        },
+        {
+            "brand": "FitPro",
+            "revenue": 31420413.2,
+            "orders": 1020,
+            "units_sold": 3111,
+            "avg_rating": 3.03,
+            "total_reviews": 2518191,
+            "avg_order_value": 30804.33
+        },
+        {
+            "brand": "Nike",
+            "revenue": 30727637.51,
+            "orders": 1005,
+            "units_sold": 3040,
+            "avg_rating": 2.96,
+            "total_reviews": 2505699,
+            "avg_order_value": 30574.76
+        },
+        {
+            "brand": "Generic",
+            "revenue": 30507500.4,
+            "orders": 997,
+            "units_sold": 3036,
+            "avg_rating": 2.95,
+            "total_reviews": 2534748,
+            "avg_order_value": 30599.3
+        },
+        {
+            "brand": "Adidas",
+            "revenue": 30269021.82,
+            "orders": 968,
+            "units_sold": 2904,
+            "avg_rating": 2.97,
+            "total_reviews": 2464191,
+            "avg_order_value": 31269.65
+        }
+    ],
+    "growth_brands": [],
+    "platform_performance": [
+        {
+            "platform": "Souq",
+            "revenue": 101920977.13,
+            "orders": 3371,
+            "units_sold": 10101,
+            "avg_order_value": 30234.64,
+            "revenue_share_pct": 33.75
+        },
+        {
+            "platform": "Jumia",
+            "revenue": 101697072.5,
+            "orders": 3341,
+            "units_sold": 10105,
+            "avg_order_value": 30439.11,
+            "revenue_share_pct": 33.68
+        },
+        {
+            "platform": "Amazon",
+            "revenue": 98377674.76,
+            "orders": 3288,
+            "units_sold": 9856,
+            "avg_order_value": 29920.22,
+            "revenue_share_pct": 32.58
+        }
+    ],
+    "city_performance": [
+        {
+            "city": "Cairo",
+            "revenue": 52522076.73,
+            "orders": 1705,
+            "units_sold": 5159,
+            "avg_order_value": 30804.74,
+            "revenue_share_pct": 17.39
+        },
+        {
+            "city": "Casablanca",
+            "revenue": 52382993.51,
+            "orders": 1689,
+            "units_sold": 5164,
+            "avg_order_value": 31014.21,
+            "revenue_share_pct": 17.35
+        },
+        {
+            "city": "Riyadh",
+            "revenue": 50364375.88,
+            "orders": 1679,
+            "units_sold": 5022,
+            "avg_order_value": 29996.65,
+            "revenue_share_pct": 16.68
+        },
+        {
+            "city": "Dubai",
+            "revenue": 49177483.79,
+            "orders": 1648,
+            "units_sold": 4946,
+            "avg_order_value": 29840.71,
+            "revenue_share_pct": 16.28
+        },
+        {
+            "city": "Alexandria",
+            "revenue": 48844458.99,
+            "orders": 1657,
+            "units_sold": 4967,
+            "avg_order_value": 29477.65,
+            "revenue_share_pct": 16.17
+        },
+        {
+            "city": "Giza",
+            "revenue": 48704335.49,
+            "orders": 1622,
+            "units_sold": 4804,
+            "avg_order_value": 30027.33,
+            "revenue_share_pct": 16.13
+        }
+    ],
+    "low_aov_cities": [
+        {
+            "city": "Riyadh",
+            "revenue": 50364375.88,
+            "orders": 1679,
+            "units_sold": 5022,
+            "avg_order_value": 29996.65,
+            "revenue_share_pct": 16.68
+        }
+    ],
+    "high_aov_low_orders_cities": [
+        {
+            "city": "Giza",
+            "revenue": 48704335.49,
+            "orders": 1622,
+            "units_sold": 4804,
+            "avg_order_value": 30027.33,
+            "revenue_share_pct": 16.13
+        }
+    ],
+    "overall_avg_rating": 3.01,
+    "category_ratings": [
+        {
+            "category": "Fashion",
+            "avg_rating": 2.96,
+            "total_reviews": 7504638
+        },
+        {
+            "category": "Accessories",
+            "avg_rating": 3.0,
+            "total_reviews": 2632079
+        },
+        {
+            "category": "Computers",
+            "avg_rating": 3.03,
+            "total_reviews": 4981274
+        },
+        {
+            "category": "Electronics",
+            "avg_rating": 3.03,
+            "total_reviews": 7564540
+        },
+        {
+            "category": "Wearables",
+            "avg_rating": 3.03,
+            "total_reviews": 2518191
+        }
+    ],
+    "product_ratings": [
+        {
+            "category": "Accessories",
+            "product": "Bluetooth Headset",
+            "avg_rating": 3.0,
+            "total_reviews": 2632079,
+            "revenue": 29200970.13
+        },
+        {
+            "category": "Computers",
+            "product": "Dell Inspiron 3501",
+            "avg_rating": 2.99,
+            "total_reviews": 2455185,
+            "revenue": 28060270.42
+        },
+        {
+            "category": "Computers",
+            "product": "HP Pavilion Laptop",
+            "avg_rating": 3.07,
+            "total_reviews": 2526089,
+            "revenue": 29482727.14
+        },
+        {
+            "category": "Electronics",
+            "product": "Samsung Galaxy A14",
+            "avg_rating": 3.05,
+            "total_reviews": 2604628,
+            "revenue": 30004263.23
+        },
+        {
+            "category": "Electronics",
+            "product": "Xiaomi Redmi Note 12",
+            "avg_rating": 2.99,
+            "total_reviews": 2609353,
+            "revenue": 33772598.37
+        },
+        {
+            "category": "Electronics",
+            "product": "iPhone 13",
+            "avg_rating": 3.06,
+            "total_reviews": 2350559,
+            "revenue": 28550322.17
+        },
+        {
+            "category": "Fashion",
+            "product": "Adidas Running Shoes",
+            "avg_rating": 2.97,
+            "total_reviews": 2464191,
+            "revenue": 30269021.82
+        },
+        {
+            "category": "Fashion",
+            "product": "Nike Air Max",
+            "avg_rating": 2.96,
+            "total_reviews": 2505699,
+            "revenue": 30727637.51
+        },
+        {
+            "category": "Fashion",
+            "product": "T-shirt Cotton",
+            "avg_rating": 2.95,
+            "total_reviews": 2534748,
+            "revenue": 30507500.4
+        },
+        {
+            "category": "Wearables",
+            "product": "Smartwatch FitPro",
+            "avg_rating": 3.03,
+            "total_reviews": 2518191,
+            "revenue": 31420413.2
+        }
+    ],
+    "risk_products": [
+        {
+            "category": "Electronics",
+            "product": "Xiaomi Redmi Note 12",
+            "avg_rating": 2.99,
+            "total_reviews": 2609353,
+            "revenue": 33772598.37
+        },
+        {
+            "category": "Wearables",
+            "product": "Smartwatch FitPro",
+            "avg_rating": 3.03,
+            "total_reviews": 2518191,
+            "revenue": 31420413.2
+        },
+        {
+            "category": "Fashion",
+            "product": "Nike Air Max",
+            "avg_rating": 2.96,
+            "total_reviews": 2505699,
+            "revenue": 30727637.51
+        },
+        {
+            "category": "Fashion",
+            "product": "T-shirt Cotton",
+            "avg_rating": 2.95,
+            "total_reviews": 2534748,
+            "revenue": 30507500.4
+        },
+        {
+            "category": "Fashion",
+            "product": "Adidas Running Shoes",
+            "avg_rating": 2.97,
+            "total_reviews": 2464191,
+            "revenue": 30269021.82
+        }
+    ],
+    "growth_products": []
+}
