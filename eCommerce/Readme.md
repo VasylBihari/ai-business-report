@@ -20,7 +20,7 @@ The analysis is based exclusively on transactional sales data and includes:
 - Data consistency and quality checks
 
 ## Deliverables
-- [Executive-ready business performance report (PDF)](https://github.com/VasylBihari/ai-business-report/blob/main/eCommerce/output/business_report.md)
+- [Executive-ready business performance report (PDF)](https://github.com/VasylBihari/ai-business-report/blob/main/eCommerce/output/Business_Report_eCommerce.pdf)
 - Management summary with prioritized insights
 - Actionable recommendations supported by quantified findings
 - Data limitations and business risk assessment
