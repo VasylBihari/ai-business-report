@@ -19,8 +19,8 @@ Actionable recommendations to improve financial stability
 
 ### 📄 Final Report
 
-👉 View the full AI-generated financial report:
-[Link to report]
+👉 View the full AI-generated [financial report](https://github.com/VasylBihari/ai-business-report/blob/main/Credit_Card_Financial_Report/output/Credit_Card_Financial_Report.pdf)
+
 
 ### 🎯 Purpose
 
