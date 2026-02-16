@@ -1,0 +1,38 @@
+{
+    "business_case": "International Shipping vs Profitability",
+    "overall_metrics": {
+        "total_revenue": 856462.0,
+        "total_proxy_margin": 748262.0,
+        "avg_margin_ratio": 0.8766519030456077,
+        "total_orders": 7394
+    },
+    "shipping_comparison": [
+        {
+            "international_flag": 0,
+            "total_revenue": 469606,
+            "total_proxy_margin": 469606,
+            "avg_margin_ratio": 1.0,
+            "total_orders": 5139,
+            "avg_shipping_ratio": 0.0
+        },
+        {
+            "international_flag": 1,
+            "total_revenue": 386856,
+            "total_proxy_margin": 278656,
+            "avg_margin_ratio": 0.595549521560631,
+            "total_orders": 2255,
+            "avg_shipping_ratio": 0.40445047843936893
+        }
+    ],
+    "shipping_margin_correlation": -0.9999999999999992,
+    "high_shipping_segment": {
+        "orders_count": 908,
+        "revenue_share": 0.09586181290004693,
+        "avg_margin_ratio": 0.3465167159345457
+    },
+    "false_growth_segment": {
+        "orders_count": 1404,
+        "revenue_share": 0.3008761626318506,
+        "avg_margin_ratio": 0.6744121778175023
+    }
+}
