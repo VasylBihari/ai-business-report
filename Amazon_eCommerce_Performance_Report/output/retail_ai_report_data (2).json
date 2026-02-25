@@ -1,0 +1,148 @@
+{
+    "report_title": "Amazon eCommerce Performance Report: Revenue, Risk & Fulfillment Efficiency",
+    "business_questions": [
+        "How is revenue trending over time and are there volatility peaks?",
+        "Which marketplaces and categories drive the most revenue?",
+        "Is fulfillment strategy balanced between FBA and FBM, and which performs better?",
+        "What is the refund rate, what is the revenue exposure, and where is risk concentrated?"
+    ],
+    "data_metadata": {
+        "rows": 500,
+        "columns": 15,
+        "date_min": "2025-01-01",
+        "date_max": "2025-12-02",
+        "marketplaces": [
+            "Amazon.co.uk",
+            "Amazon.com",
+            "Amazon.de"
+        ],
+        "categories": [
+            "Beauty",
+            "Electronics",
+            "Home & Kitchen",
+            "Office Supplies",
+            "Sports",
+            "Toys"
+        ],
+        "fulfillment_channels": [
+            "FBA",
+            "FBM"
+        ],
+        "currency": [
+            "USD"
+        ]
+    },
+    "kpis": {
+        "total_revenue": 161576.08,
+        "total_orders": 500,
+        "total_units": 966,
+        "average_order_value": 323.15,
+        "refund_rate": 0.046
+    },
+    "segmentation": {
+        "revenue_by_marketplace": {
+            "Amazon.com": 56297.0,
+            "Amazon.co.uk": 54181.04,
+            "Amazon.de": 51098.04
+        },
+        "revenue_by_fulfillment": {
+            "FBM": 82336.24,
+            "FBA": 79239.84
+        },
+        "revenue_by_category": {
+            "Toys": 31350.3,
+            "Office Supplies": 30715.2,
+            "Electronics": 25900.58,
+            "Sports": 25796.38,
+            "Home & Kitchen": 25038.24,
+            "Beauty": 22775.38
+        },
+        "top_products_by_revenue": [
+            {
+                "asin": "CZE4GWIYV7",
+                "sku": "SKU-211574",
+                "total_amount": 935.73
+            },
+            {
+                "asin": "ON4ICSMJ20",
+                "sku": "SKU-681854",
+                "total_amount": 927.67
+            },
+            {
+                "asin": "0W21UQ77CN",
+                "sku": "SKU-645390",
+                "total_amount": 925.54
+            },
+            {
+                "asin": "LEP5HTQKX4",
+                "sku": "SKU-675981",
+                "total_amount": 917.84
+            },
+            {
+                "asin": "84PDE9LTFU",
+                "sku": "SKU-870427",
+                "total_amount": 915.58
+            },
+            {
+                "asin": "5D5MW9N8NI",
+                "sku": "SKU-299154",
+                "total_amount": 905.48
+            },
+            {
+                "asin": "DVHJ70OYVM",
+                "sku": "SKU-672263",
+                "total_amount": 904.2
+            },
+            {
+                "asin": "ULI140IJTM",
+                "sku": "SKU-986691",
+                "total_amount": 903.06
+            },
+            {
+                "asin": "Z3GBHAX39U",
+                "sku": "SKU-375585",
+                "total_amount": 898.34
+            },
+            {
+                "asin": "NOL3V554WN",
+                "sku": "SKU-378584",
+                "total_amount": 895.34
+            }
+        ]
+    },
+    "risk": {
+        "refund_summary": {
+            "total_refunded_orders": 23,
+            "refund_rate": 0.046,
+            "refunded_revenue": 5769.95
+        },
+        "refund_rate_by_fulfillment": {
+            "FBA": 0.0437,
+            "FBM": 0.0484
+        },
+        "refund_rate_by_category": {
+            "Beauty": 0.0779,
+            "Electronics": 0.0658,
+            "Home & Kitchen": 0.0595,
+            "Office Supplies": 0.0532,
+            "Toys": 0.0222,
+            "Sports": 0.0
+        }
+    },
+    "trend_summary": {
+        "daily_revenue_start": 3412.38,
+        "daily_revenue_end": 2026.29,
+        "daily_revenue_avg": 2692.93,
+        "peak_day": "2025-08-02",
+        "peak_day_revenue": 5540.23,
+        "low_day": "2025-02-17",
+        "low_day_revenue": 628.06
+    },
+    "artifacts": {
+        "charts": {
+            "daily_revenue_trend": "charts/daily_revenue_trend.png",
+            "revenue_by_marketplace": "charts/revenue_by_marketplace.png",
+            "revenue_by_fulfillment": "charts/revenue_by_fulfillment.png"
+        }
+    }
+}
