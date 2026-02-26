@@ -2,7 +2,7 @@
 
 This project demonstrates an AI-assisted executive reporting system for Amazon-style eCommerce data.
 
-The pipeline separates deterministic KPI calculation (Python) from structured AI interpretation (JSON-based), ensuring consistent metrics and eliminating hallucinated insights.
+I calculate all business metrics in Python first, then use AI only to interpret the results and generate a structured executive report — so the numbers are accurate and the insights are consistent.
 
 The report analyzes:
 - Revenue trend (regression-based)
