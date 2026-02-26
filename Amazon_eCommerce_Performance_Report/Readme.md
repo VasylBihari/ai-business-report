@@ -11,5 +11,5 @@ The report analyzes:
 - Refund exposure and operational risk
 - Actionable strategic recommendations
 
-The final deliverable is a decision-ready [executive PDF report](https://github.com/VasylBihari/ai-business-report/blob/main/Amazon_eCommerce_Performance_Report/output/business_report%20(1).pdf)
+The final deliverable is a decision-ready [executive PDF report](https://github.com/VasylBihari/ai-business-report/blob/main/Amazon_eCommerce_Performance_Report/output/business_report.pdf)
 
