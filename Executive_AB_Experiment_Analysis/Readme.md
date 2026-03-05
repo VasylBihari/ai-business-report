@@ -1,14 +1,14 @@
 
 ## Executive A/B Experiment Analysis: Landing Page Conversion Test
 
-Dataset
-↓
-Python data validation
-↓
-A/B statistical analysis
-↓
-Experiment diagnostics
-↓
-AI executive report
-↓
+Dataset<br>
+    ↓<br>
+Python data validation<br>
+    ↓<br>
+A/B statistical analysis<br>
+    ↓<br>
+Experiment diagnostics<br>
+    ↓<br>
+AI executive report<br>
+    ↓<br>
 PDF business report
