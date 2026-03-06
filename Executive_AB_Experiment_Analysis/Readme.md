@@ -31,7 +31,7 @@ The results of the analysis are collected in JSON and sent to the OpenAI API to 
 
 ## Output
 
-The final deliverable is an **executive business report** that explains:
+The final deliverable is an [executive business report](https://github.com/VasylBihari/ai-business-report/blob/main/Executive_AB_Experiment_Analysis/output/business_report.pdf) that explains:
 
 - experiment results  
 - statistical significance  
