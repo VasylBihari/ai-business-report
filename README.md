@@ -1,4 +1,4 @@
-# 📊 AI Business Reports
+<h1 align="center">📊 AI Business Reports</h1>
 
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Analytics-lightgrey)
