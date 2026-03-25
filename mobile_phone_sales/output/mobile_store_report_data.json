@@ -1,0 +1,596 @@
+{
+    "headline_kpis": {
+        "total_revenue": 830708.7,
+        "total_profit": 258637.91,
+        "overall_profit_margin": 0.3113,
+        "total_units_sold": 1177,
+        "total_transactions": 480,
+        "average_order_value": 1730.64,
+        "average_units_per_transaction": 2.45,
+        "average_selling_price_per_unit": 705.78,
+        "return_rate": 0.225,
+        "discounted_sales_share": 0.5833
+    },
+    "brand_performance": [
+        {
+            "Brand": "Apple",
+            "Revenue_USD": 202000.21,
+            "Profit_USD": 63793.35,
+            "Units_Sold": 278,
+            "Transactions": 107,
+            "Return_Rate": 0.2056,
+            "Avg_Rating": 4.32,
+            "Profit_Margin": 0.3158
+        },
+        {
+            "Brand": "Xiaomi",
+            "Revenue_USD": 173442.96,
+            "Profit_USD": 55421.13,
+            "Units_Sold": 233,
+            "Transactions": 104,
+            "Return_Rate": 0.25,
+            "Avg_Rating": 4.25,
+            "Profit_Margin": 0.3195
+        },
+        {
+            "Brand": "Google",
+            "Revenue_USD": 172462.84,
+            "Profit_USD": 52836.88,
+            "Units_Sold": 251,
+            "Transactions": 104,
+            "Return_Rate": 0.2212,
+            "Avg_Rating": 4.39,
+            "Profit_Margin": 0.3064
+        },
+        {
+            "Brand": "OnePlus",
+            "Revenue_USD": 146955.29,
+            "Profit_USD": 44370.54,
+            "Units_Sold": 220,
+            "Transactions": 85,
+            "Return_Rate": 0.1765,
+            "Avg_Rating": 4.33,
+            "Profit_Margin": 0.3019
+        },
+        {
+            "Brand": "Samsung",
+            "Revenue_USD": 135847.4,
+            "Profit_USD": 42216.01,
+            "Units_Sold": 195,
+            "Transactions": 80,
+            "Return_Rate": 0.275,
+            "Avg_Rating": 4.23,
+            "Profit_Margin": 0.3108
+        }
+    ],
+    "channel_performance": [
+        {
+            "Sales_Channel": "Store",
+            "Revenue_USD": 449884.81,
+            "Profit_USD": 136804.67,
+            "Units_Sold": 642,
+            "Transactions": 258,
+            "Return_Rate": 0.2403,
+            "Avg_Rating": 4.32,
+            "Revenue_per_Unit": 704.32,
+            "Profit_Margin": 0.3041
+        },
+        {
+            "Sales_Channel": "Online",
+            "Revenue_USD": 380823.89,
+            "Profit_USD": 121833.24,
+            "Units_Sold": 535,
+            "Transactions": 222,
+            "Return_Rate": 0.2072,
+            "Avg_Rating": 4.3,
+            "Revenue_per_Unit": 715.49,
+            "Profit_Margin": 0.3199
+        }
+    ],
+    "promotion_performance": [
+        {
+            "Promotion": "No Promotion",
+            "Revenue_USD": 230856.85,
+            "Profit_USD": 74087.61,
+            "Units_Sold": 327,
+            "Transactions": 128,
+            "Return_Rate": 0.2656,
+            "Avg_Discount": 0.056,
+            "Profit_Margin": 0.3209
+        },
+        {
+            "Promotion": "Holiday Sale",
+            "Revenue_USD": 204826.89,
+            "Profit_USD": 65289.67,
+            "Units_Sold": 294,
+            "Transactions": 117,
+            "Return_Rate": 0.2137,
+            "Avg_Discount": 0.056,
+            "Profit_Margin": 0.3188
+        },
+        {
+            "Promotion": "Black Friday",
+            "Revenue_USD": 202127.09,
+            "Profit_USD": 58854.37,
+            "Units_Sold": 282,
+            "Transactions": 120,
+            "Return_Rate": 0.2083,
+            "Avg_Discount": 0.063,
+            "Profit_Margin": 0.2912
+        },
+        {
+            "Promotion": "Back to School",
+            "Revenue_USD": 192897.87,
+            "Profit_USD": 60406.26,
+            "Units_Sold": 274,
+            "Transactions": 115,
+            "Return_Rate": 0.2087,
+            "Avg_Discount": 0.057,
+            "Profit_Margin": 0.3132
+        }
+    ],
+    "model_performance": [
+        {
+            "Brand": "Google",
+            "Model": "Pixel 8",
+            "Revenue_USD": 92015.62,
+            "Profit_USD": 27613.18,
+            "Units_Sold": 139,
+            "Transactions": 59,
+            "Return_Rate": 0.1695,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 676.31,
+            "Profit_Margin": 0.3001
+        },
+        {
+            "Brand": "OnePlus",
+            "Model": "OnePlus 11",
+            "Revenue_USD": 83534.06,
+            "Profit_USD": 24816.48,
+            "Units_Sold": 126,
+            "Transactions": 43,
+            "Return_Rate": 0.186,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 671.87,
+            "Profit_Margin": 0.2971
+        },
+        {
+            "Brand": "Google",
+            "Model": "Pixel 7",
+            "Revenue_USD": 80447.22,
+            "Profit_USD": 25223.7,
+            "Units_Sold": 112,
+            "Transactions": 45,
+            "Return_Rate": 0.2889,
+            "Avg_Rating": 4.43,
+            "Revenue_per_Unit": 752.24,
+            "Profit_Margin": 0.3135
+        },
+        {
+            "Brand": "Apple",
+            "Model": "iPhone 13",
+            "Revenue_USD": 73446.19,
+            "Profit_USD": 24982.16,
+            "Units_Sold": 97,
+            "Transactions": 36,
+            "Return_Rate": 0.2222,
+            "Avg_Rating": 4.39,
+            "Revenue_per_Unit": 747.15,
+            "Profit_Margin": 0.3401
+        },
+        {
+            "Brand": "Xiaomi",
+            "Model": "Redmi Note 12",
+            "Revenue_USD": 70260.69,
+            "Profit_USD": 22051.11,
+            "Units_Sold": 91,
+            "Transactions": 42,
+            "Return_Rate": 0.3095,
+            "Avg_Rating": 4.25,
+            "Revenue_per_Unit": 761.76,
+            "Profit_Margin": 0.3138
+        },
+        {
+            "Brand": "OnePlus",
+            "Model": "OnePlus 10",
+            "Revenue_USD": 63421.23,
+            "Profit_USD": 19554.06,
+            "Units_Sold": 94,
+            "Transactions": 42,
+            "Return_Rate": 0.1667,
+            "Avg_Rating": 4.32,
+            "Revenue_per_Unit": 681.46,
+            "Profit_Margin": 0.3083
+        },
+        {
+            "Brand": "Xiaomi",
+            "Model": "Xiaomi 13",
+            "Revenue_USD": 62054.85,
+            "Profit_USD": 20294.77,
+            "Units_Sold": 86,
+            "Transactions": 37,
+            "Return_Rate": 0.1892,
+            "Avg_Rating": 4.26,
+            "Revenue_per_Unit": 705.95,
+            "Profit_Margin": 0.327
+        },
+        {
+            "Brand": "Apple",
+            "Model": "iPhone 15",
+            "Revenue_USD": 52714.96,
+            "Profit_USD": 16271.92,
+            "Units_Sold": 76,
+            "Transactions": 30,
+            "Return_Rate": 0.1333,
+            "Avg_Rating": 4.29,
+            "Revenue_per_Unit": 669.32,
+            "Profit_Margin": 0.3087
+        },
+        {
+            "Brand": "Samsung",
+            "Model": "Galaxy S22",
+            "Revenue_USD": 41395.5,
+            "Profit_USD": 12719.42,
+            "Units_Sold": 60,
+            "Transactions": 25,
+            "Return_Rate": 0.24,
+            "Avg_Rating": 4.19,
+            "Revenue_per_Unit": 698.94,
+            "Profit_Margin": 0.3073
+        },
+        {
+            "Brand": "Xiaomi",
+            "Model": "Mi 11",
+            "Revenue_USD": 41127.42,
+            "Profit_USD": 13075.25,
+            "Units_Sold": 56,
+            "Transactions": 25,
+            "Return_Rate": 0.24,
+            "Avg_Rating": 4.24,
+            "Revenue_per_Unit": 703.42,
+            "Profit_Margin": 0.3179
+        },
+        {
+            "Brand": "Apple",
+            "Model": "iPhone 14",
+            "Revenue_USD": 41108.71,
+            "Profit_USD": 11822.89,
+            "Units_Sold": 59,
+            "Transactions": 22,
+            "Return_Rate": 0.2727,
+            "Avg_Rating": 4.28,
+            "Revenue_per_Unit": 654.78,
+            "Profit_Margin": 0.2876
+        },
+        {
+            "Brand": "Samsung",
+            "Model": "Galaxy S23",
+            "Revenue_USD": 35094.22,
+            "Profit_USD": 11009.22,
+            "Units_Sold": 49,
+            "Transactions": 17,
+            "Return_Rate": 0.1765,
+            "Avg_Rating": 4.27,
+            "Revenue_per_Unit": 721.77,
+            "Profit_Margin": 0.3137
+        },
+        {
+            "Brand": "Apple",
+            "Model": "iPhone 15 Pro",
+            "Revenue_USD": 34730.35,
+            "Profit_USD": 10716.38,
+            "Units_Sold": 46,
+            "Transactions": 19,
+            "Return_Rate": 0.2105,
+            "Avg_Rating": 4.27,
+            "Revenue_per_Unit": 793.7,
+            "Profit_Margin": 0.3086
+        },
+        {
+            "Brand": "Samsung",
+            "Model": "Galaxy A54",
+            "Revenue_USD": 32941.71,
+            "Profit_USD": 11050.03,
+            "Units_Sold": 45,
+            "Transactions": 19,
+            "Return_Rate": 0.3158,
+            "Avg_Rating": 4.37,
+            "Revenue_per_Unit": 737.55,
+            "Profit_Margin": 0.3354
+        },
+        {
+            "Brand": "Samsung",
+            "Model": "Galaxy S21",
+            "Revenue_USD": 26415.97,
+            "Profit_USD": 7437.34,
+            "Units_Sold": 41,
+            "Transactions": 19,
+            "Return_Rate": 0.3684,
+            "Avg_Rating": 4.12,
+            "Revenue_per_Unit": 703.61,
+            "Profit_Margin": 0.2815
+        }
+    ],
+    "monthly_performance": [
+        {
+            "Year": 2024,
+            "Month": 1,
+            "Month_Name": "January",
+            "Revenue_USD": 85111.27,
+            "Profit_USD": 27020.25,
+            "Units_Sold": 118,
+            "Transactions": 46,
+            "Return_Rate": 0.2391,
+            "Profit_Margin": 0.3175
+        },
+        {
+            "Year": 2024,
+            "Month": 2,
+            "Month_Name": "February",
+            "Revenue_USD": 68870.79,
+            "Profit_USD": 20099.24,
+            "Units_Sold": 99,
+            "Transactions": 37,
+            "Return_Rate": 0.0811,
+            "Profit_Margin": 0.2918
+        },
+        {
+            "Year": 2024,
+            "Month": 3,
+            "Month_Name": "March",
+            "Revenue_USD": 82608.42,
+            "Profit_USD": 24179.54,
+            "Units_Sold": 117,
+            "Transactions": 50,
+            "Return_Rate": 0.26,
+            "Profit_Margin": 0.2927
+        },
+        {
+            "Year": 2024,
+            "Month": 4,
+            "Month_Name": "April",
+            "Revenue_USD": 62589.24,
+            "Profit_USD": 21139.18,
+            "Units_Sold": 92,
+            "Transactions": 37,
+            "Return_Rate": 0.1892,
+            "Profit_Margin": 0.3377
+        },
+        {
+            "Year": 2024,
+            "Month": 5,
+            "Month_Name": "May",
+            "Revenue_USD": 60557.04,
+            "Profit_USD": 18921.66,
+            "Units_Sold": 89,
+            "Transactions": 38,
+            "Return_Rate": 0.1053,
+            "Profit_Margin": 0.3125
+        },
+        {
+            "Year": 2024,
+            "Month": 6,
+            "Month_Name": "June",
+            "Revenue_USD": 71817.06,
+            "Profit_USD": 21853.11,
+            "Units_Sold": 109,
+            "Transactions": 43,
+            "Return_Rate": 0.3256,
+            "Profit_Margin": 0.3043
+        },
+        {
+            "Year": 2024,
+            "Month": 7,
+            "Month_Name": "July",
+            "Revenue_USD": 55277.48,
+            "Profit_USD": 17860.01,
+            "Units_Sold": 83,
+            "Transactions": 36,
+            "Return_Rate": 0.1667,
+            "Profit_Margin": 0.3231
+        },
+        {
+            "Year": 2024,
+            "Month": 8,
+            "Month_Name": "August",
+            "Revenue_USD": 78558.05,
+            "Profit_USD": 24880.34,
+            "Units_Sold": 103,
+            "Transactions": 40,
+            "Return_Rate": 0.275,
+            "Profit_Margin": 0.3167
+        },
+        {
+            "Year": 2024,
+            "Month": 9,
+            "Month_Name": "September",
+            "Revenue_USD": 54451.97,
+            "Profit_USD": 17542.43,
+            "Units_Sold": 78,
+            "Transactions": 37,
+            "Return_Rate": 0.1892,
+            "Profit_Margin": 0.3222
+        },
+        {
+            "Year": 2024,
+            "Month": 10,
+            "Month_Name": "October",
+            "Revenue_USD": 68476.76,
+            "Profit_USD": 21221.24,
+            "Units_Sold": 95,
+            "Transactions": 36,
+            "Return_Rate": 0.2778,
+            "Profit_Margin": 0.3099
+        },
+        {
+            "Year": 2024,
+            "Month": 11,
+            "Month_Name": "November",
+            "Revenue_USD": 63600.86,
+            "Profit_USD": 19875.73,
+            "Units_Sold": 92,
+            "Transactions": 36,
+            "Return_Rate": 0.2222,
+            "Profit_Margin": 0.3125
+        },
+        {
+            "Year": 2024,
+            "Month": 12,
+            "Month_Name": "December",
+            "Revenue_USD": 78789.76,
+            "Profit_USD": 24045.18,
+            "Units_Sold": 102,
+            "Transactions": 44,
+            "Return_Rate": 0.3182,
+            "Profit_Margin": 0.3052
+        }
+    ],
+    "country_performance": [
+        {
+            "Country": "Ukraine",
+            "Revenue_USD": 200771.46,
+            "Profit_USD": 63069.97,
+            "Units_Sold": 281,
+            "Transactions": 109,
+            "Return_Rate": 0.1835,
+            "Profit_Margin": 0.3141
+        },
+        {
+            "Country": "USA",
+            "Revenue_USD": 176659.16,
+            "Profit_USD": 54940.56,
+            "Units_Sold": 253,
+            "Transactions": 104,
+            "Return_Rate": 0.2212,
+            "Profit_Margin": 0.311
+        },
+        {
+            "Country": "Poland",
+            "Revenue_USD": 172787.94,
+            "Profit_USD": 53203.8,
+            "Units_Sold": 249,
+            "Transactions": 98,
+            "Return_Rate": 0.2959,
+            "Profit_Margin": 0.3079
+        },
+        {
+            "Country": "UK",
+            "Revenue_USD": 147147.73,
+            "Profit_USD": 46206.76,
+            "Units_Sold": 205,
+            "Transactions": 90,
+            "Return_Rate": 0.2444,
+            "Profit_Margin": 0.314
+        },
+        {
+            "Country": "Germany",
+            "Revenue_USD": 133342.41,
+            "Profit_USD": 41216.82,
+            "Units_Sold": 189,
+            "Transactions": 79,
+            "Return_Rate": 0.1772,
+            "Profit_Margin": 0.3091
+        }
+    ],
+    "city_performance": [
+        {
+            "Country": "Ukraine",
+            "City": "Lviv",
+            "Revenue_USD": 114066.88,
+            "Profit_USD": 35860.47,
+            "Units_Sold": 156,
+            "Transactions": 61,
+            "Profit_Margin": 0.3144
+        },
+        {
+            "Country": "Poland",
+            "City": "Warsaw",
+            "Revenue_USD": 96903.47,
+            "Profit_USD": 30944.89,
+            "Units_Sold": 142,
+            "Transactions": 53,
+            "Profit_Margin": 0.3193
+        },
+        {
+            "Country": "Ukraine",
+            "City": "Kyiv",
+            "Revenue_USD": 86704.58,
+            "Profit_USD": 27209.5,
+            "Units_Sold": 125,
+            "Transactions": 48,
+            "Profit_Margin": 0.3138
+        },
+        {
+            "Country": "UK",
+            "City": "London",
+            "Revenue_USD": 76837.75,
+            "Profit_USD": 24665.54,
+            "Units_Sold": 107,
+            "Transactions": 45,
+            "Profit_Margin": 0.321
+        },
+        {
+            "Country": "Poland",
+            "City": "Krakow",
+            "Revenue_USD": 75884.47,
+            "Profit_USD": 22258.91,
+            "Units_Sold": 107,
+            "Transactions": 45,
+            "Profit_Margin": 0.2933
+        },
+        {
+            "Country": "USA",
+            "City": "Los Angeles",
+            "Revenue_USD": 75640.87,
+            "Profit_USD": 23989.31,
+            "Units_Sold": 104,
+            "Transactions": 40,
+            "Profit_Margin": 0.3171
+        },
+        {
+            "Country": "Germany",
+            "City": "Munich",
+            "Revenue_USD": 73479.0,
+            "Profit_USD": 22509.22,
+            "Units_Sold": 103,
+            "Transactions": 44,
+            "Profit_Margin": 0.3063
+        },
+        {
+            "Country": "UK",
+            "City": "Manchester",
+            "Revenue_USD": 70309.98,
+            "Profit_USD": 21541.22,
+            "Units_Sold": 98,
+            "Transactions": 45,
+            "Profit_Margin": 0.3064
+        },
+        {
+            "Country": "Germany",
+            "City": "Berlin",
+            "Revenue_USD": 59863.41,
+            "Profit_USD": 18707.6,
+            "Units_Sold": 86,
+            "Transactions": 35,
+            "Profit_Margin": 0.3125
+        },
+        {
+            "Country": "USA",
+            "City": "New York",
+            "Revenue_USD": 55686.78,
+            "Profit_USD": 18128.21,
+            "Units_Sold": 77,
+            "Transactions": 35,
+            "Profit_Margin": 0.3255
+        },
+        {
+            "Country": "USA",
+            "City": "Chicago",
+            "Revenue_USD": 45331.51,
+            "Profit_USD": 12823.04,
+            "Units_Sold": 72,
+            "Transactions": 29,
+            "Profit_Margin": 0.2829
+        }
+    ]
+}

@@ -1,0 +1,314 @@
+{
+    "headline_kpis": {
+        "total_revenue": 830708.7,
+        "total_profit": 258637.91,
+        "overall_profit_margin": 0.3113,
+        "total_units_sold": 1177,
+        "total_transactions": 480,
+        "average_order_value": 1730.64,
+        "average_units_per_transaction": 2.45,
+        "average_selling_price_per_unit": 705.78,
+        "return_rate": 0.225,
+        "discounted_sales_share": 0.5833
+    },
+    "top_brand_by_revenue": {
+        "Brand": "Apple",
+        "Revenue_USD": 202000.21,
+        "Profit_USD": 63793.35,
+        "Units_Sold": 278,
+        "Transactions": 107,
+        "Return_Rate": 0.2056,
+        "Avg_Rating": 4.32,
+        "Profit_Margin": 0.3158
+    },
+    "top_brand_by_profit": {
+        "Brand": "Apple",
+        "Revenue_USD": 202000.21,
+        "Profit_USD": 63793.35,
+        "Units_Sold": 278,
+        "Transactions": 107,
+        "Return_Rate": 0.2056,
+        "Avg_Rating": 4.32,
+        "Profit_Margin": 0.3158
+    },
+    "worst_brand_by_return_rate": {
+        "Brand": "Samsung",
+        "Revenue_USD": 135847.4,
+        "Profit_USD": 42216.01,
+        "Units_Sold": 195,
+        "Transactions": 80,
+        "Return_Rate": 0.275,
+        "Avg_Rating": 4.23,
+        "Profit_Margin": 0.3108
+    },
+    "channel_performance": [
+        {
+            "Sales_Channel": "Store",
+            "Revenue_USD": 449884.81,
+            "Profit_USD": 136804.67,
+            "Units_Sold": 642,
+            "Transactions": 258,
+            "Return_Rate": 0.2403,
+            "Avg_Rating": 4.32,
+            "Revenue_per_Unit": 704.32,
+            "Profit_Margin": 0.3041
+        },
+        {
+            "Sales_Channel": "Online",
+            "Revenue_USD": 380823.89,
+            "Profit_USD": 121833.24,
+            "Units_Sold": 535,
+            "Transactions": 222,
+            "Return_Rate": 0.2072,
+            "Avg_Rating": 4.3,
+            "Revenue_per_Unit": 715.49,
+            "Profit_Margin": 0.3199
+        }
+    ],
+    "best_promotion_by_profit": {
+        "Promotion": "No Promotion",
+        "Revenue_USD": 230856.85,
+        "Profit_USD": 74087.61,
+        "Units_Sold": 327,
+        "Transactions": 128,
+        "Return_Rate": 0.2656,
+        "Avg_Discount": 0.056,
+        "Profit_Margin": 0.3209
+    },
+    "worst_promotion_by_margin": {
+        "Promotion": "Black Friday",
+        "Revenue_USD": 202127.09,
+        "Profit_USD": 58854.37,
+        "Units_Sold": 282,
+        "Transactions": 120,
+        "Return_Rate": 0.2083,
+        "Avg_Discount": 0.063,
+        "Profit_Margin": 0.2912
+    },
+    "top_5_models_by_revenue": [
+        {
+            "Brand": "Google",
+            "Model": "Pixel 8",
+            "Revenue_USD": 92015.62,
+            "Profit_USD": 27613.18,
+            "Units_Sold": 139,
+            "Transactions": 59,
+            "Return_Rate": 0.1695,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 676.31,
+            "Profit_Margin": 0.3001
+        },
+        {
+            "Brand": "OnePlus",
+            "Model": "OnePlus 11",
+            "Revenue_USD": 83534.06,
+            "Profit_USD": 24816.48,
+            "Units_Sold": 126,
+            "Transactions": 43,
+            "Return_Rate": 0.186,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 671.87,
+            "Profit_Margin": 0.2971
+        },
+        {
+            "Brand": "Google",
+            "Model": "Pixel 7",
+            "Revenue_USD": 80447.22,
+            "Profit_USD": 25223.7,
+            "Units_Sold": 112,
+            "Transactions": 45,
+            "Return_Rate": 0.2889,
+            "Avg_Rating": 4.43,
+            "Revenue_per_Unit": 752.24,
+            "Profit_Margin": 0.3135
+        },
+        {
+            "Brand": "Apple",
+            "Model": "iPhone 13",
+            "Revenue_USD": 73446.19,
+            "Profit_USD": 24982.16,
+            "Units_Sold": 97,
+            "Transactions": 36,
+            "Return_Rate": 0.2222,
+            "Avg_Rating": 4.39,
+            "Revenue_per_Unit": 747.15,
+            "Profit_Margin": 0.3401
+        },
+        {
+            "Brand": "Xiaomi",
+            "Model": "Redmi Note 12",
+            "Revenue_USD": 70260.69,
+            "Profit_USD": 22051.11,
+            "Units_Sold": 91,
+            "Transactions": 42,
+            "Return_Rate": 0.3095,
+            "Avg_Rating": 4.25,
+            "Revenue_per_Unit": 761.76,
+            "Profit_Margin": 0.3138
+        }
+    ],
+    "top_5_models_by_profit": [
+        {
+            "Brand": "Google",
+            "Model": "Pixel 8",
+            "Revenue_USD": 92015.62,
+            "Profit_USD": 27613.18,
+            "Units_Sold": 139,
+            "Transactions": 59,
+            "Return_Rate": 0.1695,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 676.31,
+            "Profit_Margin": 0.3001
+        },
+        {
+            "Brand": "Google",
+            "Model": "Pixel 7",
+            "Revenue_USD": 80447.22,
+            "Profit_USD": 25223.7,
+            "Units_Sold": 112,
+            "Transactions": 45,
+            "Return_Rate": 0.2889,
+            "Avg_Rating": 4.43,
+            "Revenue_per_Unit": 752.24,
+            "Profit_Margin": 0.3135
+        },
+        {
+            "Brand": "Apple",
+            "Model": "iPhone 13",
+            "Revenue_USD": 73446.19,
+            "Profit_USD": 24982.16,
+            "Units_Sold": 97,
+            "Transactions": 36,
+            "Return_Rate": 0.2222,
+            "Avg_Rating": 4.39,
+            "Revenue_per_Unit": 747.15,
+            "Profit_Margin": 0.3401
+        },
+        {
+            "Brand": "OnePlus",
+            "Model": "OnePlus 11",
+            "Revenue_USD": 83534.06,
+            "Profit_USD": 24816.48,
+            "Units_Sold": 126,
+            "Transactions": 43,
+            "Return_Rate": 0.186,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 671.87,
+            "Profit_Margin": 0.2971
+        },
+        {
+            "Brand": "Xiaomi",
+            "Model": "Redmi Note 12",
+            "Revenue_USD": 70260.69,
+            "Profit_USD": 22051.11,
+            "Units_Sold": 91,
+            "Transactions": 42,
+            "Return_Rate": 0.3095,
+            "Avg_Rating": 4.25,
+            "Revenue_per_Unit": 761.76,
+            "Profit_Margin": 0.3138
+        }
+    ],
+    "worst_5_models_by_margin": [
+        {
+            "Brand": "Samsung",
+            "Model": "Galaxy S21",
+            "Revenue_USD": 26415.97,
+            "Profit_USD": 7437.34,
+            "Units_Sold": 41,
+            "Transactions": 19,
+            "Return_Rate": 0.3684,
+            "Avg_Rating": 4.12,
+            "Revenue_per_Unit": 703.61,
+            "Profit_Margin": 0.2815
+        },
+        {
+            "Brand": "Apple",
+            "Model": "iPhone 14",
+            "Revenue_USD": 41108.71,
+            "Profit_USD": 11822.89,
+            "Units_Sold": 59,
+            "Transactions": 22,
+            "Return_Rate": 0.2727,
+            "Avg_Rating": 4.28,
+            "Revenue_per_Unit": 654.78,
+            "Profit_Margin": 0.2876
+        },
+        {
+            "Brand": "OnePlus",
+            "Model": "OnePlus 11",
+            "Revenue_USD": 83534.06,
+            "Profit_USD": 24816.48,
+            "Units_Sold": 126,
+            "Transactions": 43,
+            "Return_Rate": 0.186,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 671.87,
+            "Profit_Margin": 0.2971
+        },
+        {
+            "Brand": "Google",
+            "Model": "Pixel 8",
+            "Revenue_USD": 92015.62,
+            "Profit_USD": 27613.18,
+            "Units_Sold": 139,
+            "Transactions": 59,
+            "Return_Rate": 0.1695,
+            "Avg_Rating": 4.35,
+            "Revenue_per_Unit": 676.31,
+            "Profit_Margin": 0.3001
+        },
+        {
+            "Brand": "Samsung",
+            "Model": "Galaxy S22",
+            "Revenue_USD": 41395.5,
+            "Profit_USD": 12719.42,
+            "Units_Sold": 60,
+            "Transactions": 25,
+            "Return_Rate": 0.24,
+            "Avg_Rating": 4.19,
+            "Revenue_per_Unit": 698.94,
+            "Profit_Margin": 0.3073
+        }
+    ],
+    "best_month_by_revenue": {
+        "Year": 2024,
+        "Month": 1,
+        "Month_Name": "January",
+        "Revenue_USD": 85111.27,
+        "Profit_USD": 27020.25,
+        "Units_Sold": 118,
+        "Transactions": 46,
+        "Return_Rate": 0.2391,
+        "Profit_Margin": 0.3175
+    },
+    "worst_month_by_revenue": {
+        "Year": 2024,
+        "Month": 9,
+        "Month_Name": "September",
+        "Revenue_USD": 54451.97,
+        "Profit_USD": 17542.43,
+        "Units_Sold": 78,
+        "Transactions": 37,
+        "Return_Rate": 0.1892,
+        "Profit_Margin": 0.3222
+    },
+    "top_country_by_revenue": {
+        "Country": "Ukraine",
+        "Revenue_USD": 200771.46,
+        "Profit_USD": 63069.97,
+        "Units_Sold": 281,
+        "Transactions": 109,
+        "Return_Rate": 0.1835,
+        "Profit_Margin": 0.3141
+    },
+    "top_country_by_profit": {
+        "Country": "Ukraine",
+        "Revenue_USD": 200771.46,
+        "Profit_USD": 63069.97,
+        "Units_Sold": 281,
+        "Transactions": 109,
+        "Return_Rate": 0.1835,
+        "Profit_Margin": 0.3141
+    }
+}
