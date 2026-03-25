@@ -1,0 +1,481 @@
+Sale_ID,Date,Country,City,Store_ID,Sales_Channel,Brand,Model,Supplier,Storage_GB,Color,Price_USD,COGS_USD,Units_Sold,Discount_pct,Revenue_USD,Cost_Total_USD,Profit_USD,Profit_Margin,Inventory_Level,Promotion,Payment_Method,Warranty_Type,Customer_Rating,Returned,Salesperson_ID
+200000,2024-05-03,Poland,Warsaw,STORE_2,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Red,384.72,256.44,2,0.0,769.44,512.88,256.56,0.333,16,None,Google Pay,Standard 12M,4.2,0,EMP_128
+200001,2024-10-13,Ukraine,Lviv,STORE_3,Store,OnePlus,OnePlus 10,OnePlus Distribution,64,Silver,341.92,246.76,3,0.1,923.18,740.28,182.9,0.198,23,Holiday Sale,PayPal,Standard 12M,4.4,0,EMP_170
+200002,2024-04-02,Ukraine,Kyiv,STORE_4,Store,Apple,iPhone 13,Apple Distribution Ltd,512,White,778.55,549.22,4,0.15,2647.07,2196.88,450.19,0.17,63,Black Friday,Google Pay,Extended 24M,4.1,0,EMP_143
+200003,2024-10-12,Ukraine,Kyiv,STORE_10,Online,Google,Pixel 8,Google Devices Supply,64,Red,676.31,474.38,2,0.1,1217.36,948.76,268.6,0.221,58,Black Friday,PayPal,Extended 24M,3.7,0,EMP_158
+200004,2024-01-12,Germany,Munich,STORE_8,Online,Apple,iPhone 13,Apple Distribution Ltd,64,Black,958.04,586.25,4,0.05,3640.55,2345.0,1295.55,0.356,54,Holiday Sale,Google Pay,Standard 12M,4.8,0,EMP_163
+200005,2024-03-11,Germany,Berlin,STORE_7,Online,Apple,iPhone 14,Apple Distribution Ltd,128,Green,651.85,472.12,1,0.0,651.85,472.12,179.73,0.276,62,Back to School,PayPal,Extended 24M,4.2,0,EMP_129
+200006,2024-09-30,UK,London,STORE_6,Online,Samsung,Galaxy S21,Samsung Electronics Distribution,128,White,510.0,329.97,2,0.05,969.0,659.94,309.06,0.319,41,Holiday Sale,Google Pay,Standard 12M,3.6,1,EMP_158
+200007,2024-06-23,Poland,Krakow,STORE_10,Store,OnePlus,OnePlus 11,OnePlus Distribution,512,Black,733.37,462.09,2,0.0,1466.74,924.18,542.56,0.37,31,None,Credit Card,Standard 12M,4.2,0,EMP_168
+200008,2024-09-06,Ukraine,Kyiv,STORE_8,Online,Apple,iPhone 15,Apple Distribution Ltd,64,Silver,852.66,494.3,3,0.05,2430.08,1482.9,947.18,0.39,51,Back to School,PayPal,Standard 12M,4.3,0,EMP_118
+200009,2024-11-25,Germany,Munich,STORE_2,Online,Apple,iPhone 15,Apple Distribution Ltd,128,Red,320.79,237.45,3,0.0,962.37,712.35,250.02,0.26,74,Black Friday,Cash,Extended 24M,4.9,0,EMP_128
+200010,2024-08-29,UK,London,STORE_5,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Green,965.89,575.04,4,0.05,3670.38,2300.16,1370.22,0.373,8,Black Friday,Apple Pay,Extended 24M,5.0,0,EMP_146
+200011,2024-12-04,USA,New York,STORE_2,Online,Apple,iPhone 14,Apple Distribution Ltd,512,Silver,603.96,390.48,1,0.1,543.56,390.48,153.08,0.282,49,Holiday Sale,Apple Pay,Standard 12M,4.7,0,EMP_155
+200012,2024-12-01,Poland,Krakow,STORE_3,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,White,1152.12,800.68,2,0.0,2304.24,1601.36,702.88,0.305,8,Black Friday,Cash,Standard 12M,3.8,1,EMP_102
+200013,2024-05-12,Ukraine,Kyiv,STORE_9,Online,Apple,iPhone 13,Apple Distribution Ltd,512,Silver,1043.54,617.99,3,0.0,3130.62,1853.97,1276.65,0.408,42,Holiday Sale,Credit Card,Extended 24M,4.3,0,EMP_158
+200014,2024-03-29,Ukraine,Kyiv,STORE_3,Online,OnePlus,OnePlus 11,OnePlus Distribution,128,Red,759.49,550.3,2,0.15,1291.13,1100.6,190.53,0.148,5,None,Google Pay,Standard 12M,4.7,0,EMP_141
+200015,2024-08-14,USA,Los Angeles,STORE_6,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Silver,472.18,263.68,1,0.15,401.35,263.68,137.67,0.343,62,Black Friday,Apple Pay,Extended 24M,4.4,0,EMP_164
+200016,2024-12-08,Ukraine,Kyiv,STORE_5,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,512,Silver,674.97,424.2,3,0.0,2024.91,1272.6,752.31,0.372,35,Holiday Sale,PayPal,Standard 12M,4.2,0,EMP_132
+200017,2024-06-22,UK,London,STORE_7,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,512,Green,446.52,305.23,2,0.0,893.04,610.46,282.58,0.316,60,Black Friday,PayPal,Standard 12M,5.0,1,EMP_146
+200018,2024-02-23,Ukraine,Lviv,STORE_2,Online,Apple,iPhone 15,Apple Distribution Ltd,512,White,316.27,194.92,3,0.15,806.49,584.76,221.73,0.275,13,Black Friday,Credit Card,Standard 12M,3.8,0,EMP_134
+200019,2024-08-05,Germany,Munich,STORE_2,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,128,Red,1127.25,748.63,3,0.0,3381.75,2245.89,1135.86,0.336,40,None,Credit Card,Extended 24M,3.7,0,EMP_110
+200020,2024-02-26,USA,Chicago,STORE_3,Online,OnePlus,OnePlus 10,OnePlus Distribution,64,Green,310.39,232.44,4,0.05,1179.48,929.76,249.72,0.212,21,None,Cash,Standard 12M,3.7,0,EMP_139
+200021,2024-09-20,UK,Manchester,STORE_8,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,512,Red,904.94,546.68,1,0.05,859.69,546.68,313.01,0.364,9,Back to School,Credit Card,Extended 24M,3.6,0,EMP_163
+200022,2024-01-08,Ukraine,Lviv,STORE_2,Online,OnePlus,OnePlus 11,OnePlus Distribution,128,Silver,608.43,435.91,2,0.1,1095.17,871.82,223.35,0.204,49,Back to School,Cash,Standard 12M,5.0,0,EMP_110
+200023,2024-10-07,Ukraine,Kyiv,STORE_6,Store,Google,Pixel 8,Google Devices Supply,256,Black,713.51,414.91,4,0.0,2854.04,1659.64,1194.4,0.418,38,None,PayPal,Standard 12M,4.1,0,EMP_145
+200024,2024-03-14,Germany,Munich,STORE_7,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,64,Green,551.04,375.37,2,0.15,936.77,750.74,186.03,0.199,5,Back to School,Credit Card,Extended 24M,3.7,0,EMP_138
+200025,2024-12-24,Ukraine,Kyiv,STORE_9,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,512,Blue,948.61,615.49,3,0.15,2418.96,1846.47,572.49,0.237,23,None,Google Pay,Standard 12M,3.7,1,EMP_110
+200026,2024-08-21,UK,Manchester,STORE_2,Store,Apple,iPhone 13,Apple Distribution Ltd,64,Green,1052.24,696.27,1,0.15,894.4,696.27,198.13,0.222,36,None,Apple Pay,Extended 24M,4.3,0,EMP_109
+200027,2024-06-18,UK,London,STORE_5,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,Green,1060.98,599.82,3,0.0,3182.94,1799.46,1383.48,0.435,30,Holiday Sale,Credit Card,Extended 24M,3.7,0,EMP_107
+200028,2024-10-08,USA,Los Angeles,STORE_4,Online,Google,Pixel 8,Google Devices Supply,128,White,740.65,512.36,3,0.1,1999.75,1537.08,462.67,0.231,64,None,Apple Pay,Standard 12M,4.3,0,EMP_137
+200029,2024-07-03,Ukraine,Lviv,STORE_3,Online,Google,Pixel 7,Google Devices Supply,256,Green,488.85,361.32,2,0.0,977.7,722.64,255.06,0.261,79,None,PayPal,Standard 12M,3.7,0,EMP_163
+200030,2024-06-18,USA,New York,STORE_1,Online,Google,Pixel 8,Google Devices Supply,64,Green,913.43,576.45,2,0.1,1644.17,1152.9,491.27,0.299,49,Black Friday,Apple Pay,Standard 12M,4.1,0,EMP_125
+200031,2024-05-23,Germany,Munich,STORE_2,Store,Apple,iPhone 15,Apple Distribution Ltd,64,Green,651.14,471.42,1,0.05,618.58,471.42,147.16,0.238,59,Black Friday,Cash,Standard 12M,4.7,0,EMP_134
+200032,2024-08-18,UK,Manchester,STORE_10,Store,Google,Pixel 8,Google Devices Supply,512,Black,1030.77,696.99,2,0.0,2061.54,1393.98,667.56,0.324,11,Black Friday,Apple Pay,Standard 12M,4.9,1,EMP_170
+200033,2024-03-02,Poland,Krakow,STORE_3,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,256,Blue,567.99,396.35,3,0.1,1533.57,1189.05,344.52,0.225,35,None,Cash,Extended 24M,4.0,1,EMP_170
+200034,2024-07-07,Germany,Munich,STORE_5,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,512,Silver,793.01,474.87,2,0.05,1506.72,949.74,556.98,0.37,76,None,Apple Pay,Extended 24M,3.7,0,EMP_152
+200035,2024-02-17,Poland,Krakow,STORE_5,Store,OnePlus,OnePlus 10,OnePlus Distribution,256,Black,748.33,497.53,3,0.0,2244.99,1492.59,752.4,0.335,69,Back to School,Apple Pay,Extended 24M,4.3,0,EMP_155
+200036,2024-08-17,UK,London,STORE_4,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,White,987.32,701.84,4,0.0,3949.28,2807.36,1141.92,0.289,14,Holiday Sale,Cash,Standard 12M,4.1,1,EMP_166
+200037,2024-12-23,USA,Los Angeles,STORE_2,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,64,Black,1004.07,598.94,1,0.05,953.87,598.94,354.93,0.372,21,None,PayPal,Standard 12M,4.5,1,EMP_149
+200038,2024-01-15,Ukraine,Kyiv,STORE_7,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Red,571.37,366.9,3,0.0,1714.11,1100.7,613.41,0.358,65,None,Credit Card,Standard 12M,4.3,0,EMP_163
+200039,2024-01-04,Germany,Berlin,STORE_5,Store,Google,Pixel 7,Google Devices Supply,512,Blue,504.11,280.7,3,0.1,1361.1,842.1,519.0,0.381,51,Holiday Sale,Apple Pay,Standard 12M,4.6,0,EMP_139
+200040,2024-10-31,Poland,Warsaw,STORE_3,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,256,Blue,398.11,268.61,2,0.0,796.22,537.22,259.0,0.325,67,None,Cash,Standard 12M,4.2,0,EMP_118
+200041,2024-11-30,USA,New York,STORE_9,Online,Google,Pixel 7,Google Devices Supply,512,Green,1108.35,805.46,1,0.0,1108.35,805.46,302.89,0.273,26,None,PayPal,Extended 24M,4.1,0,EMP_147
+200042,2024-08-09,UK,London,STORE_2,Store,Xiaomi,Mi 11,Xiaomi Global Supply,64,Black,551.83,342.3,1,0.15,469.06,342.3,126.76,0.27,31,Back to School,Cash,Extended 24M,4.1,0,EMP_169
+200043,2024-02-01,Germany,Munich,STORE_5,Store,Google,Pixel 7,Google Devices Supply,512,Black,868.5,520.75,4,0.0,3474.0,2083.0,1391.0,0.4,53,None,Google Pay,Extended 24M,3.6,0,EMP_146
+200044,2024-01-13,Ukraine,Kyiv,STORE_4,Store,Xiaomi,Mi 11,Xiaomi Global Supply,256,White,944.97,579.55,3,0.05,2693.16,1738.65,954.51,0.354,5,Back to School,Apple Pay,Extended 24M,4.6,0,EMP_132
+200045,2024-08-23,UK,Manchester,STORE_6,Store,Google,Pixel 8,Google Devices Supply,128,Black,1022.31,713.26,2,0.15,1737.93,1426.52,311.41,0.179,35,Holiday Sale,Apple Pay,Standard 12M,4.1,0,EMP_131
+200046,2024-09-12,USA,Chicago,STORE_8,Store,Google,Pixel 7,Google Devices Supply,256,Silver,1182.23,859.12,1,0.05,1123.12,859.12,264.0,0.235,15,Holiday Sale,Cash,Extended 24M,3.9,1,EMP_158
+200047,2024-05-05,Ukraine,Kyiv,STORE_4,Store,OnePlus,OnePlus 10,OnePlus Distribution,256,Blue,551.46,332.82,3,0.05,1571.66,998.46,573.2,0.365,30,Black Friday,Google Pay,Standard 12M,4.2,0,EMP_141
+200048,2024-08-17,Germany,Berlin,STORE_6,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,128,White,1027.6,699.45,1,0.0,1027.6,699.45,328.15,0.319,5,Black Friday,Cash,Standard 12M,4.3,0,EMP_106
+200049,2024-06-23,USA,Chicago,STORE_3,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,128,Green,842.74,594.13,1,0.0,842.74,594.13,248.61,0.295,49,Holiday Sale,PayPal,Standard 12M,3.9,0,EMP_126
+200050,2024-07-21,Poland,Krakow,STORE_9,Store,Apple,iPhone 15,Apple Distribution Ltd,128,Red,580.98,343.17,4,0.15,1975.33,1372.68,602.65,0.305,66,None,Cash,Extended 24M,3.7,0,EMP_134
+200051,2024-11-25,Germany,Munich,STORE_4,Online,Google,Pixel 8,Google Devices Supply,64,Blue,970.8,705.52,4,0.1,3494.88,2822.08,672.8,0.193,7,Back to School,Cash,Standard 12M,4.8,0,EMP_155
+200052,2024-11-24,USA,New York,STORE_7,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,512,Red,1094.55,702.9,2,0.0,2189.1,1405.8,783.3,0.358,6,Black Friday,Google Pay,Standard 12M,3.7,0,EMP_118
+200053,2024-09-04,UK,London,STORE_6,Store,Xiaomi,Mi 11,Xiaomi Global Supply,64,Black,645.36,452.21,2,0.05,1226.18,904.42,321.76,0.262,21,Back to School,Credit Card,Standard 12M,4.8,0,EMP_128
+200054,2024-04-08,Ukraine,Kyiv,STORE_1,Store,OnePlus,OnePlus 11,OnePlus Distribution,512,Silver,808.88,451.63,2,0.1,1455.98,903.26,552.72,0.38,50,Black Friday,Credit Card,Extended 24M,3.8,0,EMP_158
+200055,2024-08-26,Poland,Krakow,STORE_4,Online,OnePlus,OnePlus 11,OnePlus Distribution,128,Green,650.29,405.45,4,0.0,2601.16,1621.8,979.36,0.377,7,Back to School,Cash,Extended 24M,3.6,1,EMP_151
+200056,2024-09-18,UK,Manchester,STORE_2,Store,Apple,iPhone 13,Apple Distribution Ltd,512,Blue,382.54,244.21,1,0.0,382.54,244.21,138.33,0.362,21,Back to School,Cash,Standard 12M,3.7,0,EMP_108
+200057,2024-03-22,UK,London,STORE_6,Online,OnePlus,OnePlus 10,OnePlus Distribution,512,Blue,1160.98,851.24,2,0.0,2321.96,1702.48,619.48,0.267,13,Back to School,Cash,Extended 24M,4.8,0,EMP_164
+200058,2024-03-27,Ukraine,Lviv,STORE_5,Store,Google,Pixel 7,Google Devices Supply,128,Blue,635.04,374.54,4,0.0,2540.16,1498.16,1042.0,0.41,40,None,PayPal,Extended 24M,4.6,1,EMP_166
+200059,2024-04-27,Germany,Munich,STORE_3,Store,OnePlus,OnePlus 10,OnePlus Distribution,256,Blue,638.17,398.08,2,0.05,1212.52,796.16,416.36,0.343,47,Black Friday,Google Pay,Extended 24M,4.7,1,EMP_139
+200060,2024-03-08,USA,Los Angeles,STORE_8,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Silver,434.43,292.46,4,0.1,1563.95,1169.84,394.11,0.252,70,None,Credit Card,Standard 12M,4.1,0,EMP_100
+200061,2024-03-22,Germany,Berlin,STORE_3,Store,OnePlus,OnePlus 11,OnePlus Distribution,256,Red,501.83,334.58,2,0.0,1003.66,669.16,334.5,0.333,51,Holiday Sale,Cash,Extended 24M,4.5,1,EMP_112
+200062,2024-05-07,Germany,Munich,STORE_3,Store,Apple,iPhone 14,Apple Distribution Ltd,256,Black,350.52,250.33,3,0.15,893.83,750.99,142.84,0.16,79,None,Credit Card,Standard 12M,4.2,1,EMP_151
+200063,2024-11-09,UK,London,STORE_3,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,64,Black,851.38,580.1,2,0.0,1702.76,1160.2,542.56,0.319,57,None,PayPal,Standard 12M,3.9,1,EMP_161
+200064,2024-03-04,Poland,Krakow,STORE_6,Online,OnePlus,OnePlus 10,OnePlus Distribution,512,Black,967.58,619.73,2,0.0,1935.16,1239.46,695.7,0.36,38,None,PayPal,Extended 24M,3.9,0,EMP_166
+200065,2024-06-17,UK,London,STORE_10,Store,Xiaomi,Mi 11,Xiaomi Global Supply,64,Silver,534.33,319.11,2,0.0,1068.66,638.22,430.44,0.403,46,Back to School,Google Pay,Extended 24M,3.9,1,EMP_160
+200066,2024-03-15,USA,Chicago,STORE_1,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,Red,1096.28,775.99,4,0.15,3727.35,3103.96,623.39,0.167,79,None,Credit Card,Standard 12M,3.7,0,EMP_144
+200067,2024-04-12,USA,New York,STORE_9,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,128,White,879.19,491.05,1,0.0,879.19,491.05,388.14,0.441,13,Back to School,Credit Card,Standard 12M,4.8,0,EMP_126
+200068,2024-08-04,USA,New York,STORE_5,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,64,White,869.03,560.89,2,0.0,1738.06,1121.78,616.28,0.355,31,Black Friday,PayPal,Extended 24M,4.0,0,EMP_106
+200069,2024-08-28,Ukraine,Lviv,STORE_1,Store,Xiaomi,Mi 11,Xiaomi Global Supply,256,Red,971.09,687.35,1,0.1,873.98,687.35,186.63,0.214,71,None,Google Pay,Extended 24M,4.7,0,EMP_121
+200070,2024-10-22,Ukraine,Kyiv,STORE_3,Online,Google,Pixel 7,Google Devices Supply,256,Black,303.93,197.0,4,0.0,1215.72,788.0,427.72,0.352,68,Holiday Sale,Cash,Extended 24M,4.4,0,EMP_121
+200071,2024-05-14,Poland,Warsaw,STORE_7,Store,Apple,iPhone 13,Apple Distribution Ltd,256,Blue,385.63,283.71,1,0.1,347.07,283.71,63.36,0.183,8,Back to School,Cash,Extended 24M,4.1,0,EMP_116
+200072,2024-10-23,Germany,Munich,STORE_4,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,Green,895.89,625.69,2,0.1,1612.6,1251.38,361.22,0.224,61,Black Friday,Apple Pay,Standard 12M,4.6,0,EMP_164
+200073,2024-05-12,Germany,Berlin,STORE_2,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,128,Silver,950.84,637.61,3,0.0,2852.52,1912.83,939.69,0.329,35,None,Cash,Extended 24M,4.1,0,EMP_119
+200074,2024-07-23,Germany,Munich,STORE_7,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,256,Silver,398.35,291.7,3,0.0,1195.05,875.1,319.95,0.268,54,Black Friday,Apple Pay,Standard 12M,4.2,0,EMP_118
+200075,2024-11-24,Poland,Warsaw,STORE_2,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Green,931.05,621.46,4,0.0,3724.2,2485.84,1238.36,0.333,79,Back to School,PayPal,Extended 24M,4.8,0,EMP_112
+200076,2024-01-06,Poland,Warsaw,STORE_7,Online,Google,Pixel 7,Google Devices Supply,256,Green,734.47,406.85,4,0.15,2497.2,1627.4,869.8,0.348,28,None,Credit Card,Extended 24M,4.9,0,EMP_169
+200077,2024-09-24,UK,Manchester,STORE_6,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,64,Red,711.11,420.26,4,0.15,2417.77,1681.04,736.73,0.305,7,Back to School,Cash,Standard 12M,4.5,0,EMP_150
+200078,2024-10-24,Ukraine,Lviv,STORE_5,Store,OnePlus,OnePlus 10,OnePlus Distribution,64,Blue,546.92,344.53,1,0.0,546.92,344.53,202.39,0.37,58,Holiday Sale,PayPal,Extended 24M,4.9,0,EMP_167
+200079,2024-06-29,Poland,Warsaw,STORE_7,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,128,Silver,1136.48,640.72,2,0.1,2045.66,1281.44,764.22,0.374,76,Black Friday,Google Pay,Standard 12M,4.6,0,EMP_160
+200080,2024-09-02,Germany,Munich,STORE_8,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Green,910.94,588.75,3,0.05,2596.18,1766.25,829.93,0.32,36,None,PayPal,Standard 12M,4.5,0,EMP_138
+200081,2024-05-08,USA,Los Angeles,STORE_10,Store,Google,Pixel 7,Google Devices Supply,256,Silver,777.58,481.35,1,0.0,777.58,481.35,296.23,0.381,31,Holiday Sale,Cash,Standard 12M,4.9,0,EMP_157
+200082,2024-09-28,UK,Manchester,STORE_2,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Red,1102.02,740.2,1,0.15,936.72,740.2,196.52,0.21,43,None,Google Pay,Standard 12M,3.9,0,EMP_133
+200083,2024-03-23,UK,Manchester,STORE_6,Online,Google,Pixel 7,Google Devices Supply,512,Red,352.61,226.88,2,0.1,634.7,453.76,180.94,0.285,36,Back to School,PayPal,Extended 24M,4.3,0,EMP_147
+200084,2024-03-14,USA,New York,STORE_1,Store,Google,Pixel 8,Google Devices Supply,256,White,881.87,488.65,1,0.05,837.78,488.65,349.13,0.417,17,Back to School,Cash,Extended 24M,4.3,1,EMP_112
+200085,2024-07-25,Poland,Warsaw,STORE_6,Online,Xiaomi,Mi 11,Xiaomi Global Supply,256,Green,607.76,364.85,1,0.05,577.37,364.85,212.52,0.368,42,Black Friday,Cash,Extended 24M,4.1,1,EMP_115
+200086,2024-07-23,Germany,Munich,STORE_5,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Red,1175.47,667.1,1,0.1,1057.92,667.1,390.82,0.369,75,None,Credit Card,Standard 12M,4.8,0,EMP_160
+200087,2024-11-16,Ukraine,Lviv,STORE_3,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,White,906.33,623.4,1,0.0,906.33,623.4,282.93,0.312,10,Holiday Sale,Credit Card,Extended 24M,4.5,1,EMP_112
+200088,2024-09-11,UK,Manchester,STORE_10,Store,Apple,iPhone 15,Apple Distribution Ltd,256,Blue,466.3,259.66,1,0.1,419.67,259.66,160.01,0.381,77,None,Apple Pay,Extended 24M,4.5,0,EMP_157
+200089,2024-01-03,Poland,Warsaw,STORE_1,Store,Apple,iPhone 13,Apple Distribution Ltd,512,Green,793.92,449.82,4,0.0,3175.68,1799.28,1376.4,0.433,24,None,Cash,Standard 12M,4.5,1,EMP_116
+200090,2024-08-23,Germany,Berlin,STORE_5,Store,Google,Pixel 7,Google Devices Supply,512,White,969.79,712.37,3,0.0,2909.37,2137.11,772.26,0.265,15,None,Credit Card,Standard 12M,4.0,1,EMP_101
+200091,2024-08-28,Poland,Krakow,STORE_3,Store,OnePlus,OnePlus 10,OnePlus Distribution,256,White,840.11,622.98,4,0.15,2856.37,2491.92,364.45,0.128,12,None,PayPal,Standard 12M,4.0,1,EMP_153
+200092,2024-10-26,Poland,Krakow,STORE_7,Store,Google,Pixel 8,Google Devices Supply,256,Blue,551.92,372.2,3,0.15,1407.4,1116.6,290.8,0.207,6,Back to School,Apple Pay,Extended 24M,4.8,0,EMP_129
+200093,2024-05-20,USA,Chicago,STORE_9,Online,Google,Pixel 8,Google Devices Supply,256,Blue,680.25,453.95,1,0.05,646.24,453.95,192.29,0.298,23,Black Friday,Google Pay,Standard 12M,4.7,0,EMP_169
+200094,2024-07-16,Poland,Warsaw,STORE_8,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Blue,846.21,580.1,4,0.0,3384.84,2320.4,1064.44,0.314,37,Black Friday,Credit Card,Standard 12M,4.4,0,EMP_150
+200095,2024-07-04,Ukraine,Lviv,STORE_10,Online,OnePlus,OnePlus 11,OnePlus Distribution,512,Red,830.4,488.13,2,0.0,1660.8,976.26,684.54,0.412,28,Back to School,Google Pay,Standard 12M,4.7,0,EMP_131
+200096,2024-02-18,Germany,Berlin,STORE_1,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,256,White,717.09,406.12,3,0.15,1828.58,1218.36,610.22,0.334,8,Back to School,Google Pay,Standard 12M,4.1,0,EMP_133
+200097,2024-10-12,USA,Chicago,STORE_6,Online,Xiaomi,Mi 11,Xiaomi Global Supply,128,Blue,1059.37,654.45,2,0.1,1906.87,1308.9,597.97,0.314,15,Back to School,Credit Card,Extended 24M,3.6,0,EMP_115
+200098,2024-03-29,Germany,Berlin,STORE_1,Online,Apple,iPhone 15,Apple Distribution Ltd,64,White,755.85,443.33,2,0.05,1436.12,886.66,549.46,0.383,35,Black Friday,Credit Card,Standard 12M,5.0,0,EMP_106
+200099,2024-08-29,Poland,Warsaw,STORE_6,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Silver,585.91,322.93,2,0.05,1113.23,645.86,467.37,0.42,80,Black Friday,Apple Pay,Standard 12M,4.4,0,EMP_147
+200100,2024-02-09,UK,Manchester,STORE_10,Online,Google,Pixel 8,Google Devices Supply,128,Silver,1122.87,817.94,4,0.0,4491.48,3271.76,1219.72,0.272,9,Holiday Sale,Apple Pay,Standard 12M,3.8,0,EMP_149
+200101,2024-12-31,Poland,Krakow,STORE_8,Store,Apple,iPhone 13,Apple Distribution Ltd,256,Silver,729.78,493.07,2,0.05,1386.58,986.14,400.44,0.289,33,Back to School,Cash,Extended 24M,4.6,0,EMP_153
+200102,2024-09-04,UK,London,STORE_2,Store,Google,Pixel 7,Google Devices Supply,256,Red,1055.61,651.21,2,0.05,2005.66,1302.42,703.24,0.351,67,None,Cash,Extended 24M,3.8,1,EMP_136
+200103,2024-01-30,UK,Manchester,STORE_5,Store,Apple,iPhone 15,Apple Distribution Ltd,512,Blue,1198.28,880.75,1,0.1,1078.45,880.75,197.7,0.183,42,None,Apple Pay,Extended 24M,4.2,0,EMP_165
+200104,2024-04-02,USA,Los Angeles,STORE_9,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,256,Silver,624.09,348.31,4,0.0,2496.36,1393.24,1103.12,0.442,40,Holiday Sale,Cash,Standard 12M,4.4,0,EMP_111
+200105,2024-12-20,Germany,Berlin,STORE_9,Online,OnePlus,OnePlus 11,OnePlus Distribution,128,Silver,851.19,588.64,2,0.15,1447.02,1177.28,269.74,0.186,44,None,Google Pay,Extended 24M,3.9,0,EMP_142
+200106,2024-01-19,Poland,Warsaw,STORE_3,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Green,1119.19,722.24,3,0.0,3357.57,2166.72,1190.85,0.355,28,None,PayPal,Extended 24M,4.4,0,EMP_166
+200107,2024-08-16,Germany,Berlin,STORE_9,Store,Apple,iPhone 13,Apple Distribution Ltd,256,White,1081.28,719.33,1,0.05,1027.22,719.33,307.89,0.3,18,Holiday Sale,Credit Card,Standard 12M,4.9,1,EMP_111
+200108,2024-09-24,UK,London,STORE_4,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,256,Blue,799.82,592.72,1,0.0,799.82,592.72,207.1,0.259,29,None,PayPal,Standard 12M,4.0,1,EMP_122
+200109,2024-04-26,USA,Chicago,STORE_3,Online,Apple,iPhone 15,Apple Distribution Ltd,512,Red,750.68,454.86,1,0.0,750.68,454.86,295.82,0.394,56,Back to School,Cash,Standard 12M,4.8,0,EMP_149
+200110,2024-06-15,Poland,Warsaw,STORE_9,Store,Google,Pixel 7,Google Devices Supply,256,Blue,660.64,474.15,4,0.15,2246.18,1896.6,349.58,0.156,46,Black Friday,Cash,Extended 24M,4.7,0,EMP_101
+200111,2024-08-20,Ukraine,Kyiv,STORE_1,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Blue,689.74,448.99,1,0.0,689.74,448.99,240.75,0.349,22,None,Google Pay,Extended 24M,4.2,1,EMP_134
+200112,2024-03-02,Ukraine,Kyiv,STORE_1,Online,OnePlus,OnePlus 10,OnePlus Distribution,256,Black,768.27,489.19,1,0.05,729.86,489.19,240.67,0.33,19,None,Apple Pay,Standard 12M,4.0,0,EMP_156
+200113,2024-04-13,Germany,Munich,STORE_9,Online,Apple,iPhone 14,Apple Distribution Ltd,256,Blue,519.06,294.6,3,0.1,1401.46,883.8,517.66,0.369,77,Back to School,Google Pay,Extended 24M,3.9,1,EMP_161
+200114,2024-06-14,USA,New York,STORE_9,Online,Google,Pixel 8,Google Devices Supply,256,Silver,469.92,309.76,4,0.0,1879.68,1239.04,640.64,0.341,50,Back to School,PayPal,Extended 24M,3.8,0,EMP_127
+200115,2024-02-25,USA,New York,STORE_9,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Red,1084.15,691.68,1,0.15,921.53,691.68,229.85,0.249,54,Holiday Sale,Apple Pay,Extended 24M,4.8,0,EMP_145
+200116,2024-01-03,Ukraine,Lviv,STORE_7,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,64,White,1070.64,786.29,4,0.05,4068.43,3145.16,923.27,0.227,21,Back to School,Apple Pay,Standard 12M,4.2,0,EMP_153
+200117,2024-11-27,Ukraine,Kyiv,STORE_6,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,512,Green,923.38,561.06,3,0.05,2631.63,1683.18,948.45,0.36,50,Back to School,Apple Pay,Extended 24M,4.1,1,EMP_138
+200118,2024-08-06,UK,Manchester,STORE_1,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,512,Red,508.74,363.41,3,0.05,1449.91,1090.23,359.68,0.248,36,None,PayPal,Extended 24M,4.9,0,EMP_138
+200119,2024-02-20,Ukraine,Lviv,STORE_7,Online,OnePlus,OnePlus 11,OnePlus Distribution,512,Green,717.82,400.65,3,0.1,1938.11,1201.95,736.16,0.38,6,Back to School,Google Pay,Standard 12M,4.5,0,EMP_124
+200120,2024-06-08,Poland,Krakow,STORE_9,Store,Google,Pixel 8,Google Devices Supply,256,White,777.12,554.22,2,0.05,1476.53,1108.44,368.09,0.249,45,None,PayPal,Extended 24M,4.1,0,EMP_165
+200121,2024-12-20,Ukraine,Lviv,STORE_7,Store,Google,Pixel 7,Google Devices Supply,128,Red,1103.83,698.12,1,0.15,938.26,698.12,240.14,0.256,18,None,PayPal,Standard 12M,4.1,0,EMP_138
+200122,2024-07-29,Ukraine,Kyiv,STORE_10,Store,Google,Pixel 7,Google Devices Supply,64,Silver,457.67,322.11,3,0.15,1167.06,966.33,200.73,0.172,70,Holiday Sale,Cash,Standard 12M,5.0,0,EMP_103
+200123,2024-06-30,UK,Manchester,STORE_5,Store,Apple,iPhone 13,Apple Distribution Ltd,512,Red,687.56,488.21,1,0.15,584.43,488.21,96.22,0.165,46,None,PayPal,Standard 12M,3.8,0,EMP_108
+200124,2024-04-24,Poland,Krakow,STORE_1,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Black,498.04,313.37,1,0.1,448.24,313.37,134.87,0.301,11,Holiday Sale,PayPal,Standard 12M,4.5,0,EMP_158
+200125,2024-01-12,Ukraine,Lviv,STORE_4,Store,Xiaomi,Mi 11,Xiaomi Global Supply,512,Black,518.64,325.68,2,0.1,933.55,651.36,282.19,0.302,44,Holiday Sale,Cash,Extended 24M,4.2,1,EMP_148
+200126,2024-06-28,Germany,Munich,STORE_9,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,256,Black,601.51,435.67,3,0.1,1624.08,1307.01,317.07,0.195,13,Back to School,Cash,Extended 24M,4.9,1,EMP_136
+200127,2024-10-11,Poland,Warsaw,STORE_8,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,White,322.76,229.47,2,0.0,645.52,458.94,186.58,0.289,16,Holiday Sale,Cash,Extended 24M,3.9,0,EMP_145
+200128,2024-10-27,Poland,Warsaw,STORE_6,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,256,Green,754.35,449.18,4,0.0,3017.4,1796.72,1220.68,0.405,38,Back to School,Google Pay,Standard 12M,4.4,1,EMP_116
+200129,2024-04-28,Ukraine,Lviv,STORE_6,Store,Apple,iPhone 13,Apple Distribution Ltd,512,Black,891.77,591.72,3,0.0,2675.31,1775.16,900.15,0.336,54,None,Credit Card,Extended 24M,4.6,0,EMP_164
+200130,2024-11-17,USA,Los Angeles,STORE_3,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Black,503.78,289.79,4,0.05,1914.36,1159.16,755.2,0.394,50,Holiday Sale,Credit Card,Extended 24M,4.2,1,EMP_144
+200131,2024-12-30,Poland,Warsaw,STORE_1,Online,Google,Pixel 7,Google Devices Supply,512,Blue,1115.44,635.29,3,0.0,3346.32,1905.87,1440.45,0.43,39,None,Google Pay,Standard 12M,4.9,0,EMP_155
+200132,2024-08-10,UK,Manchester,STORE_10,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,64,Red,579.83,392.93,2,0.15,985.71,785.86,199.85,0.203,34,None,Credit Card,Extended 24M,4.4,0,EMP_105
+200133,2024-05-23,UK,London,STORE_9,Store,OnePlus,OnePlus 10,OnePlus Distribution,64,Blue,489.13,358.48,1,0.1,440.22,358.48,81.74,0.186,55,Black Friday,Apple Pay,Extended 24M,5.0,0,EMP_143
+200134,2024-03-30,Ukraine,Kyiv,STORE_9,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Green,905.81,651.56,2,0.1,1630.46,1303.12,327.34,0.201,29,Holiday Sale,Google Pay,Extended 24M,3.7,0,EMP_131
+200135,2024-01-04,Germany,Munich,STORE_9,Online,Apple,iPhone 14,Apple Distribution Ltd,512,Black,481.27,294.59,2,0.1,866.29,589.18,277.11,0.32,66,Holiday Sale,PayPal,Extended 24M,3.9,0,EMP_117
+200136,2024-01-07,Germany,Berlin,STORE_6,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,512,Silver,909.32,528.28,4,0.1,3273.55,2113.12,1160.43,0.354,31,Holiday Sale,Credit Card,Standard 12M,3.8,0,EMP_135
+200137,2024-10-12,USA,Los Angeles,STORE_2,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Green,1166.6,679.27,4,0.1,4199.76,2717.08,1482.68,0.353,77,None,Apple Pay,Extended 24M,4.1,0,EMP_110
+200138,2024-11-25,Ukraine,Lviv,STORE_5,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,White,739.99,471.26,2,0.15,1257.98,942.52,315.46,0.251,46,Holiday Sale,Credit Card,Standard 12M,3.6,0,EMP_103
+200139,2024-07-13,UK,Manchester,STORE_3,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,256,Silver,1165.82,763.71,2,0.0,2331.64,1527.42,804.22,0.345,44,Black Friday,Cash,Extended 24M,4.6,0,EMP_117
+200140,2024-03-21,Germany,Berlin,STORE_5,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Black,396.51,281.74,4,0.0,1586.04,1126.96,459.08,0.289,32,Holiday Sale,Cash,Standard 12M,4.3,1,EMP_117
+200141,2024-02-06,USA,New York,STORE_1,Online,Google,Pixel 8,Google Devices Supply,512,Green,471.73,327.66,1,0.0,471.73,327.66,144.07,0.305,70,Black Friday,Credit Card,Extended 24M,4.2,0,EMP_101
+200142,2024-08-07,Poland,Krakow,STORE_9,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,64,Green,1023.75,701.32,2,0.1,1842.75,1402.64,440.11,0.239,15,Back to School,Google Pay,Standard 12M,4.4,1,EMP_107
+200143,2024-12-13,Germany,Munich,STORE_8,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,256,Green,890.85,514.35,3,0.15,2271.67,1543.05,728.62,0.321,8,Holiday Sale,Google Pay,Extended 24M,4.8,0,EMP_153
+200144,2024-11-28,UK,Manchester,STORE_2,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,512,Blue,402.83,236.1,2,0.15,684.81,472.2,212.61,0.31,19,Black Friday,Apple Pay,Standard 12M,3.9,0,EMP_170
+200145,2024-11-16,Ukraine,Kyiv,STORE_9,Store,Google,Pixel 7,Google Devices Supply,64,Green,911.54,647.25,2,0.15,1549.62,1294.5,255.12,0.165,75,Back to School,Apple Pay,Standard 12M,4.3,0,EMP_124
+200146,2024-08-23,USA,New York,STORE_5,Store,OnePlus,OnePlus 11,OnePlus Distribution,256,Red,351.8,210.16,3,0.0,1055.4,630.48,424.92,0.403,6,Holiday Sale,Apple Pay,Standard 12M,4.6,0,EMP_125
+200147,2024-09-07,Germany,Berlin,STORE_1,Online,OnePlus,OnePlus 10,OnePlus Distribution,256,White,1057.33,751.57,1,0.05,1004.46,751.57,252.89,0.252,20,None,PayPal,Extended 24M,3.9,0,EMP_114
+200148,2024-05-12,Germany,Munich,STORE_3,Store,Apple,iPhone 14,Apple Distribution Ltd,128,White,702.09,503.84,4,0.0,2808.36,2015.36,793.0,0.282,7,Black Friday,Apple Pay,Standard 12M,4.3,0,EMP_132
+200149,2024-08-31,Poland,Warsaw,STORE_3,Online,OnePlus,OnePlus 11,OnePlus Distribution,64,Blue,1195.04,773.71,4,0.0,4780.16,3094.84,1685.32,0.353,9,Back to School,Cash,Standard 12M,3.7,1,EMP_146
+200150,2024-06-30,UK,Manchester,STORE_6,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Red,862.16,510.64,3,0.1,2327.83,1531.92,795.91,0.342,47,Black Friday,Google Pay,Extended 24M,4.4,1,EMP_142
+200151,2024-07-01,UK,Manchester,STORE_10,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,64,White,431.25,295.06,3,0.1,1164.38,885.18,279.2,0.24,39,None,Google Pay,Standard 12M,3.7,0,EMP_125
+200152,2024-06-28,Germany,Munich,STORE_9,Online,Google,Pixel 7,Google Devices Supply,128,Silver,913.2,557.78,3,0.05,2602.62,1673.34,929.28,0.357,70,Black Friday,Credit Card,Extended 24M,4.8,0,EMP_141
+200153,2024-03-27,UK,London,STORE_10,Store,Google,Pixel 8,Google Devices Supply,256,Silver,422.06,232.74,4,0.1,1519.42,930.96,588.46,0.387,62,Holiday Sale,PayPal,Extended 24M,4.2,0,EMP_132
+200154,2024-09-05,USA,New York,STORE_6,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Red,460.87,306.98,4,0.05,1751.31,1227.92,523.39,0.299,59,Black Friday,PayPal,Standard 12M,4.6,0,EMP_121
+200155,2024-03-07,USA,New York,STORE_10,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Green,703.13,512.28,3,0.15,1792.98,1536.84,256.14,0.143,17,None,Credit Card,Extended 24M,3.9,0,EMP_117
+200156,2024-03-30,Germany,Berlin,STORE_1,Online,Apple,iPhone 14,Apple Distribution Ltd,256,Black,491.0,302.14,1,0.1,441.9,302.14,139.76,0.316,56,None,Credit Card,Extended 24M,4.5,0,EMP_163
+200157,2024-03-21,Germany,Munich,STORE_2,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Black,1132.76,750.82,3,0.0,3398.28,2252.46,1145.82,0.337,58,Holiday Sale,Cash,Standard 12M,4.5,0,EMP_167
+200158,2024-12-30,Germany,Munich,STORE_8,Store,Apple,iPhone 15,Apple Distribution Ltd,256,Red,912.14,659.64,2,0.15,1550.64,1319.28,231.36,0.149,78,Black Friday,Google Pay,Extended 24M,4.1,0,EMP_135
+200159,2024-01-15,Ukraine,Lviv,STORE_10,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Blue,308.14,198.8,3,0.0,924.42,596.4,328.02,0.355,34,None,Credit Card,Standard 12M,4.2,0,EMP_123
+200160,2024-04-19,Germany,Berlin,STORE_6,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,White,1070.12,755.31,1,0.05,1016.61,755.31,261.3,0.257,36,Back to School,Cash,Extended 24M,4.2,1,EMP_103
+200161,2024-01-16,USA,Los Angeles,STORE_5,Store,Apple,iPhone 13,Apple Distribution Ltd,512,White,1077.65,605.64,4,0.1,3879.54,2422.56,1456.98,0.376,53,Black Friday,Apple Pay,Standard 12M,4.9,0,EMP_129
+200162,2024-06-02,Germany,Munich,STORE_5,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Blue,1091.48,709.16,2,0.1,1964.66,1418.32,546.34,0.278,39,Black Friday,Credit Card,Extended 24M,4.9,0,EMP_131
+200163,2024-06-01,Ukraine,Lviv,STORE_1,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,128,Red,346.92,245.08,3,0.0,1040.76,735.24,305.52,0.294,61,Holiday Sale,Credit Card,Standard 12M,3.9,0,EMP_138
+200164,2024-11-17,USA,New York,STORE_1,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,512,White,657.46,416.07,4,0.05,2498.35,1664.28,834.07,0.334,9,Holiday Sale,Google Pay,Standard 12M,4.4,0,EMP_155
+200165,2024-12-16,USA,Chicago,STORE_9,Store,Apple,iPhone 13,Apple Distribution Ltd,64,Black,408.42,264.44,2,0.15,694.31,528.88,165.43,0.238,59,None,Google Pay,Extended 24M,3.6,0,EMP_163
+200166,2024-07-27,UK,London,STORE_9,Online,Apple,iPhone 15,Apple Distribution Ltd,64,Blue,933.22,516.11,3,0.0,2799.66,1548.33,1251.33,0.447,10,Black Friday,Credit Card,Extended 24M,3.9,0,EMP_105
+200167,2024-07-17,Ukraine,Lviv,STORE_7,Online,Google,Pixel 8,Google Devices Supply,512,White,945.98,595.83,3,0.15,2412.25,1787.49,624.76,0.259,58,Holiday Sale,Credit Card,Standard 12M,4.1,0,EMP_164
+200168,2024-12-16,Ukraine,Lviv,STORE_8,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Silver,897.08,508.97,1,0.0,897.08,508.97,388.11,0.433,56,Back to School,Google Pay,Standard 12M,4.6,0,EMP_160
+200169,2024-11-09,Ukraine,Lviv,STORE_6,Store,Google,Pixel 8,Google Devices Supply,128,White,1012.23,732.74,3,0.0,3036.69,2198.22,838.47,0.276,55,Holiday Sale,Google Pay,Extended 24M,5.0,0,EMP_133
+200170,2024-05-02,Ukraine,Lviv,STORE_3,Store,Google,Pixel 8,Google Devices Supply,128,Silver,359.27,252.01,3,0.15,916.14,756.03,160.11,0.175,31,Back to School,Cash,Standard 12M,4.3,0,EMP_141
+200171,2024-12-05,Poland,Warsaw,STORE_2,Online,Google,Pixel 8,Google Devices Supply,512,Silver,932.36,582.75,3,0.05,2657.23,1748.25,908.98,0.342,71,Back to School,PayPal,Extended 24M,4.3,1,EMP_114
+200172,2024-05-09,UK,London,STORE_1,Store,Google,Pixel 8,Google Devices Supply,64,White,417.47,270.42,2,0.15,709.7,540.84,168.86,0.238,52,None,Google Pay,Extended 24M,4.3,1,EMP_107
+200173,2024-03-06,Germany,Munich,STORE_7,Online,OnePlus,OnePlus 10,OnePlus Distribution,256,Blue,517.65,371.07,1,0.15,440.0,371.07,68.93,0.157,68,Black Friday,Credit Card,Extended 24M,4.8,0,EMP_148
+200174,2024-12-30,Germany,Munich,STORE_10,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,White,846.7,509.17,2,0.1,1524.06,1018.34,505.72,0.332,79,None,Cash,Extended 24M,3.8,0,EMP_109
+200175,2024-12-24,Poland,Krakow,STORE_7,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,512,Green,1142.17,775.08,1,0.0,1142.17,775.08,367.09,0.321,80,Back to School,Cash,Standard 12M,4.4,1,EMP_156
+200176,2024-03-01,UK,London,STORE_2,Store,Google,Pixel 8,Google Devices Supply,128,White,480.22,316.14,3,0.15,1224.56,948.42,276.14,0.226,47,None,Google Pay,Standard 12M,4.7,1,EMP_113
+200177,2024-07-27,UK,Manchester,STORE_1,Store,Google,Pixel 7,Google Devices Supply,64,White,479.85,296.12,1,0.15,407.87,296.12,111.75,0.274,58,Black Friday,PayPal,Standard 12M,4.8,0,EMP_166
+200178,2024-12-14,Ukraine,Lviv,STORE_1,Online,Apple,iPhone 14,Apple Distribution Ltd,256,Black,581.74,349.63,3,0.15,1483.44,1048.89,434.55,0.293,55,Black Friday,Cash,Extended 24M,4.3,1,EMP_155
+200179,2024-04-12,Germany,Berlin,STORE_8,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Black,486.76,331.22,4,0.1,1752.34,1324.88,427.46,0.244,79,Black Friday,Credit Card,Standard 12M,3.8,0,EMP_152
+200180,2024-01-30,USA,Chicago,STORE_3,Online,OnePlus,OnePlus 11,OnePlus Distribution,128,Green,562.38,389.23,4,0.1,2024.57,1556.92,467.65,0.231,61,None,Credit Card,Standard 12M,3.9,0,EMP_109
+200181,2024-04-15,UK,London,STORE_9,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Green,498.73,346.16,3,0.0,1496.19,1038.48,457.71,0.306,73,Back to School,Credit Card,Standard 12M,4.8,0,EMP_111
+200182,2024-04-29,UK,Manchester,STORE_10,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,512,White,682.12,493.61,2,0.0,1364.24,987.22,377.02,0.276,25,Holiday Sale,PayPal,Extended 24M,4.8,0,EMP_141
+200183,2024-08-25,UK,London,STORE_3,Store,OnePlus,OnePlus 10,OnePlus Distribution,512,Black,594.85,345.72,3,0.0,1784.55,1037.16,747.39,0.419,74,Back to School,PayPal,Extended 24M,4.6,0,EMP_114
+200184,2024-02-17,USA,Los Angeles,STORE_4,Online,Apple,iPhone 15,Apple Distribution Ltd,128,White,1145.49,750.6,3,0.1,3092.82,2251.8,841.02,0.272,49,Black Friday,PayPal,Standard 12M,3.6,1,EMP_125
+200185,2024-01-26,Germany,Berlin,STORE_3,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,256,Black,822.1,468.71,1,0.05,781.0,468.71,312.29,0.4,29,Black Friday,Apple Pay,Extended 24M,4.9,0,EMP_131
+200186,2024-10-31,Germany,Berlin,STORE_7,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Blue,1028.11,714.26,4,0.0,4112.44,2857.04,1255.4,0.305,75,None,Credit Card,Standard 12M,3.8,0,EMP_165
+200187,2024-06-18,Poland,Warsaw,STORE_1,Online,OnePlus,OnePlus 10,OnePlus Distribution,512,Red,1053.47,595.47,2,0.05,2001.59,1190.94,810.65,0.405,26,Black Friday,Cash,Extended 24M,4.5,0,EMP_112
+200188,2024-09-16,USA,New York,STORE_5,Online,Apple,iPhone 14,Apple Distribution Ltd,512,Blue,782.39,448.71,4,0.0,3129.56,1794.84,1334.72,0.426,25,Holiday Sale,PayPal,Extended 24M,4.4,0,EMP_126
+200189,2024-05-15,Ukraine,Kyiv,STORE_1,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,64,Black,395.18,221.59,2,0.0,790.36,443.18,347.18,0.439,16,Back to School,Google Pay,Standard 12M,4.7,0,EMP_137
+200190,2024-01-22,USA,Los Angeles,STORE_4,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,Silver,519.2,366.03,1,0.0,519.2,366.03,153.17,0.295,14,Black Friday,PayPal,Standard 12M,4.4,0,EMP_159
+200191,2024-03-12,USA,Chicago,STORE_4,Store,OnePlus,OnePlus 10,OnePlus Distribution,512,Green,329.02,232.85,2,0.15,559.33,465.7,93.63,0.167,26,Holiday Sale,PayPal,Standard 12M,3.8,0,EMP_100
+200192,2024-10-25,Poland,Krakow,STORE_3,Online,Google,Pixel 7,Google Devices Supply,64,Red,872.75,514.75,1,0.05,829.11,514.75,314.36,0.379,57,Back to School,Cash,Extended 24M,3.7,0,EMP_138
+200193,2024-02-04,Ukraine,Kyiv,STORE_5,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,512,Green,1042.66,737.04,3,0.15,2658.78,2211.12,447.66,0.168,73,Holiday Sale,Cash,Extended 24M,4.5,0,EMP_130
+200194,2024-06-02,Poland,Krakow,STORE_8,Store,Google,Pixel 7,Google Devices Supply,256,Green,665.62,377.69,3,0.15,1697.33,1133.07,564.26,0.332,59,None,Apple Pay,Extended 24M,4.7,0,EMP_152
+200195,2024-05-18,Poland,Warsaw,STORE_3,Online,OnePlus,OnePlus 11,OnePlus Distribution,256,Red,492.29,305.59,4,0.15,1673.79,1222.36,451.43,0.27,9,Back to School,Google Pay,Standard 12M,4.0,0,EMP_115
+200196,2024-06-06,Poland,Warsaw,STORE_8,Online,Samsung,Galaxy S21,Samsung Electronics Distribution,512,Blue,599.4,347.76,2,0.0,1198.8,695.52,503.28,0.42,49,Holiday Sale,Cash,Extended 24M,4.8,1,EMP_167
+200197,2024-03-10,UK,London,STORE_5,Online,Apple,iPhone 13,Apple Distribution Ltd,128,Green,808.73,551.09,3,0.0,2426.19,1653.27,772.92,0.319,75,None,Google Pay,Extended 24M,4.6,1,EMP_156
+200198,2024-01-30,Germany,Munich,STORE_2,Online,Xiaomi,Mi 11,Xiaomi Global Supply,512,Red,1027.81,577.56,4,0.1,3700.12,2310.24,1389.88,0.376,51,Back to School,PayPal,Standard 12M,4.6,0,EMP_158
+200199,2024-11-17,Poland,Warsaw,STORE_4,Online,Apple,iPhone 15,Apple Distribution Ltd,64,Blue,430.07,287.08,1,0.1,387.06,287.08,99.98,0.258,27,None,Apple Pay,Extended 24M,4.6,0,EMP_110
+200200,2024-09-21,Germany,Munich,STORE_1,Store,Google,Pixel 8,Google Devices Supply,256,Silver,1050.15,681.71,1,0.15,892.63,681.71,210.92,0.236,49,Black Friday,Google Pay,Standard 12M,4.9,0,EMP_139
+200201,2024-02-25,Poland,Krakow,STORE_5,Online,Apple,iPhone 15,Apple Distribution Ltd,128,Blue,578.46,427.33,2,0.15,983.38,854.66,128.72,0.131,46,Back to School,PayPal,Extended 24M,4.9,1,EMP_160
+200202,2024-12-04,UK,Manchester,STORE_9,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,White,443.86,323.35,1,0.0,443.86,323.35,120.51,0.272,40,None,PayPal,Extended 24M,4.7,1,EMP_146
+200203,2024-02-05,USA,Chicago,STORE_9,Store,Google,Pixel 8,Google Devices Supply,512,Black,337.2,241.21,3,0.05,961.02,723.63,237.39,0.247,51,Back to School,Credit Card,Extended 24M,4.0,0,EMP_121
+200204,2024-12-08,Poland,Krakow,STORE_5,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,256,Green,653.31,464.6,3,0.0,1959.93,1393.8,566.13,0.289,23,Holiday Sale,PayPal,Standard 12M,4.3,1,EMP_152
+200205,2024-09-13,Ukraine,Kyiv,STORE_2,Online,Apple,iPhone 13,Apple Distribution Ltd,512,Green,492.54,342.69,2,0.0,985.08,685.38,299.7,0.304,33,None,Apple Pay,Extended 24M,4.5,0,EMP_116
+200206,2024-07-03,USA,Los Angeles,STORE_1,Store,Google,Pixel 8,Google Devices Supply,256,Red,491.77,292.49,1,0.05,467.18,292.49,174.69,0.374,77,None,PayPal,Standard 12M,5.0,0,EMP_100
+200207,2024-09-04,Poland,Krakow,STORE_4,Online,Google,Pixel 7,Google Devices Supply,64,Green,831.22,556.2,1,0.0,831.22,556.2,275.02,0.331,73,Black Friday,PayPal,Standard 12M,4.8,0,EMP_127
+200208,2024-02-15,Germany,Berlin,STORE_10,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,Silver,325.54,211.91,4,0.05,1237.05,847.64,389.41,0.315,13,Back to School,Apple Pay,Extended 24M,4.9,0,EMP_128
+200209,2024-02-27,Ukraine,Lviv,STORE_7,Store,Apple,iPhone 15,Apple Distribution Ltd,256,Black,877.6,583.71,4,0.1,3159.36,2334.84,824.52,0.261,63,Black Friday,Cash,Standard 12M,3.9,0,EMP_166
+200210,2024-08-01,UK,London,STORE_1,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,256,Silver,804.24,555.12,3,0.0,2412.72,1665.36,747.36,0.31,7,Black Friday,Cash,Extended 24M,3.7,0,EMP_145
+200211,2024-07-05,USA,Los Angeles,STORE_8,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,White,619.73,452.28,4,0.0,2478.92,1809.12,669.8,0.27,48,None,PayPal,Extended 24M,3.7,0,EMP_160
+200212,2024-03-23,Ukraine,Lviv,STORE_7,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,512,Silver,618.43,421.32,2,0.05,1175.02,842.64,332.38,0.283,71,Holiday Sale,Credit Card,Standard 12M,4.2,1,EMP_127
+200213,2024-09-05,USA,New York,STORE_4,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Green,1002.33,592.17,1,0.05,952.21,592.17,360.04,0.378,48,Holiday Sale,Cash,Extended 24M,4.5,1,EMP_148
+200214,2024-08-28,Ukraine,Kyiv,STORE_3,Online,Apple,iPhone 13,Apple Distribution Ltd,128,Green,710.77,474.16,4,0.0,2843.08,1896.64,946.44,0.333,77,Holiday Sale,Apple Pay,Extended 24M,4.6,0,EMP_118
+200215,2024-11-20,Ukraine,Lviv,STORE_1,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,64,White,514.74,384.7,2,0.0,1029.48,769.4,260.08,0.253,55,None,Cash,Standard 12M,4.4,0,EMP_104
+200216,2024-09-02,Poland,Warsaw,STORE_2,Store,Google,Pixel 7,Google Devices Supply,128,White,339.8,224.69,4,0.05,1291.24,898.76,392.48,0.304,10,Holiday Sale,Cash,Standard 12M,3.8,0,EMP_165
+200217,2024-12-27,Ukraine,Lviv,STORE_1,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Black,1066.27,705.0,1,0.15,906.33,705.0,201.33,0.222,76,Back to School,Apple Pay,Standard 12M,4.5,0,EMP_126
+200218,2024-12-12,Ukraine,Lviv,STORE_2,Store,Apple,iPhone 14,Apple Distribution Ltd,128,Black,937.32,653.41,4,0.0,3749.28,2613.64,1135.64,0.303,16,Holiday Sale,Credit Card,Standard 12M,4.4,0,EMP_147
+200219,2024-12-15,Germany,Munich,STORE_10,Store,Xiaomi,Mi 11,Xiaomi Global Supply,128,Green,845.78,630.71,2,0.0,1691.56,1261.42,430.14,0.254,15,Back to School,Apple Pay,Extended 24M,3.7,0,EMP_126
+200220,2024-08-14,USA,Los Angeles,STORE_5,Store,Apple,iPhone 13,Apple Distribution Ltd,64,White,912.78,657.2,4,0.0,3651.12,2628.8,1022.32,0.28,28,Black Friday,PayPal,Extended 24M,4.5,0,EMP_103
+200221,2024-01-07,USA,New York,STORE_7,Store,Xiaomi,Mi 11,Xiaomi Global Supply,512,Silver,1182.79,805.25,4,0.15,4021.49,3221.0,800.49,0.199,46,Black Friday,Cash,Extended 24M,4.0,0,EMP_142
+200222,2024-08-22,Germany,Berlin,STORE_3,Store,Apple,iPhone 14,Apple Distribution Ltd,128,Black,331.84,239.02,4,0.05,1260.99,956.08,304.91,0.242,51,None,Google Pay,Standard 12M,3.7,0,EMP_152
+200223,2024-12-19,UK,London,STORE_5,Online,OnePlus,OnePlus 10,OnePlus Distribution,256,Black,942.87,599.93,1,0.0,942.87,599.93,342.94,0.364,61,Holiday Sale,PayPal,Extended 24M,4.5,0,EMP_103
+200224,2024-07-04,Germany,Berlin,STORE_2,Store,Apple,iPhone 14,Apple Distribution Ltd,64,Red,361.14,226.88,1,0.0,361.14,226.88,134.26,0.372,13,None,Apple Pay,Extended 24M,4.3,0,EMP_157
+200225,2024-01-16,Germany,Munich,STORE_7,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,512,Green,927.09,542.02,1,0.1,834.38,542.02,292.36,0.35,48,None,Cash,Extended 24M,4.1,0,EMP_142
+200226,2024-02-19,USA,New York,STORE_1,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Black,442.23,301.53,3,0.05,1260.36,904.59,355.77,0.282,28,Black Friday,Credit Card,Standard 12M,3.7,1,EMP_107
+200227,2024-09-24,USA,Chicago,STORE_2,Store,Apple,iPhone 15,Apple Distribution Ltd,128,Blue,627.27,435.66,2,0.05,1191.81,871.32,320.49,0.269,37,Holiday Sale,PayPal,Extended 24M,4.1,0,EMP_103
+200228,2024-04-30,UK,Manchester,STORE_5,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,256,Silver,877.28,565.28,1,0.0,877.28,565.28,312.0,0.356,17,Back to School,Apple Pay,Extended 24M,4.5,0,EMP_114
+200229,2024-04-07,Ukraine,Lviv,STORE_2,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,64,Green,405.99,262.23,2,0.0,811.98,524.46,287.52,0.354,59,Black Friday,Apple Pay,Extended 24M,4.2,0,EMP_130
+200230,2024-05-02,USA,New York,STORE_9,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Green,969.8,642.56,4,0.0,3879.2,2570.24,1308.96,0.337,12,Black Friday,Cash,Standard 12M,4.9,0,EMP_110
+200231,2024-02-04,Poland,Krakow,STORE_2,Online,Google,Pixel 8,Google Devices Supply,128,Black,1026.06,693.82,1,0.0,1026.06,693.82,332.24,0.324,40,Back to School,PayPal,Standard 12M,4.5,0,EMP_165
+200232,2024-01-22,Poland,Warsaw,STORE_6,Store,Apple,iPhone 13,Apple Distribution Ltd,128,Green,898.01,518.92,3,0.0,2694.03,1556.76,1137.27,0.422,54,Holiday Sale,Credit Card,Extended 24M,4.7,0,EMP_110
+200233,2024-01-13,USA,Chicago,STORE_3,Store,Google,Pixel 7,Google Devices Supply,512,Silver,1055.34,644.7,3,0.15,2691.12,1934.1,757.02,0.281,30,Black Friday,Apple Pay,Standard 12M,4.9,1,EMP_108
+200234,2024-05-18,Ukraine,Lviv,STORE_4,Online,Google,Pixel 8,Google Devices Supply,128,Red,1115.41,656.4,4,0.0,4461.64,2625.6,1836.04,0.412,44,None,Apple Pay,Standard 12M,5.0,1,EMP_143
+200235,2024-03-11,Ukraine,Lviv,STORE_5,Store,Google,Pixel 7,Google Devices Supply,128,Silver,1045.22,574.9,3,0.15,2665.31,1724.7,940.61,0.353,63,None,PayPal,Extended 24M,4.3,1,EMP_119
+200236,2024-03-18,Ukraine,Lviv,STORE_5,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,64,Silver,510.88,298.1,4,0.1,1839.17,1192.4,646.77,0.352,37,None,Credit Card,Extended 24M,4.8,0,EMP_113
+200237,2024-09-12,USA,Chicago,STORE_9,Online,Apple,iPhone 15,Apple Distribution Ltd,128,Silver,678.08,444.74,3,0.15,1729.1,1334.22,394.88,0.228,79,Holiday Sale,Apple Pay,Standard 12M,3.8,0,EMP_132
+200238,2024-01-05,UK,Manchester,STORE_8,Online,OnePlus,OnePlus 11,OnePlus Distribution,128,Green,629.64,412.27,1,0.0,629.64,412.27,217.37,0.345,65,Black Friday,Cash,Extended 24M,3.9,0,EMP_141
+200239,2024-07-05,USA,New York,STORE_3,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,512,Green,1165.43,850.79,2,0.05,2214.32,1701.58,512.74,0.232,51,Holiday Sale,PayPal,Standard 12M,4.1,1,EMP_104
+200240,2024-12-20,Poland,Krakow,STORE_1,Store,OnePlus,OnePlus 10,OnePlus Distribution,64,Green,824.12,608.59,3,0.05,2348.74,1825.77,522.97,0.223,60,Back to School,PayPal,Standard 12M,4.0,1,EMP_137
+200241,2024-04-11,UK,London,STORE_1,Online,OnePlus,OnePlus 10,OnePlus Distribution,256,Blue,883.85,515.0,1,0.15,751.27,515.0,236.27,0.314,63,Black Friday,Credit Card,Standard 12M,4.8,0,EMP_100
+200242,2024-04-11,UK,London,STORE_3,Online,Samsung,Galaxy S21,Samsung Electronics Distribution,128,Silver,457.08,333.72,2,0.0,914.16,667.44,246.72,0.27,8,Black Friday,Credit Card,Extended 24M,3.8,0,EMP_140
+200243,2024-03-08,Poland,Krakow,STORE_6,Online,Xiaomi,Mi 11,Xiaomi Global Supply,256,Black,1134.5,683.87,3,0.0,3403.5,2051.61,1351.89,0.397,13,Back to School,Cash,Standard 12M,4.5,0,EMP_106
+200244,2024-12-28,Poland,Krakow,STORE_8,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,64,Silver,580.24,327.51,4,0.0,2320.96,1310.04,1010.92,0.436,13,Holiday Sale,Google Pay,Standard 12M,4.4,0,EMP_160
+200245,2024-01-30,UK,London,STORE_1,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Red,494.21,354.84,4,0.0,1976.84,1419.36,557.48,0.282,38,None,Cash,Extended 24M,4.3,0,EMP_127
+200246,2024-07-22,UK,London,STORE_6,Online,Google,Pixel 7,Google Devices Supply,256,White,1108.71,638.89,1,0.0,1108.71,638.89,469.82,0.424,64,None,Google Pay,Extended 24M,4.7,0,EMP_111
+200247,2024-12-17,Germany,Berlin,STORE_8,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Silver,1138.5,825.93,4,0.0,4554.0,3303.72,1250.28,0.275,30,None,Credit Card,Standard 12M,4.0,0,EMP_149
+200248,2024-11-12,USA,Chicago,STORE_1,Store,Google,Pixel 8,Google Devices Supply,128,Green,586.42,378.46,4,0.05,2228.4,1513.84,714.56,0.321,73,Back to School,Credit Card,Extended 24M,4.2,0,EMP_117
+200249,2024-12-23,USA,Chicago,STORE_2,Store,Apple,iPhone 14,Apple Distribution Ltd,64,Blue,891.86,642.57,3,0.1,2408.02,1927.71,480.31,0.199,71,None,PayPal,Standard 12M,3.7,1,EMP_167
+200250,2024-08-22,Germany,Berlin,STORE_9,Store,Apple,iPhone 13,Apple Distribution Ltd,512,Silver,515.69,323.53,4,0.05,1959.62,1294.12,665.5,0.34,51,None,PayPal,Extended 24M,3.8,0,EMP_160
+200251,2024-05-06,Ukraine,Lviv,STORE_1,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,512,Green,944.43,658.08,2,0.0,1888.86,1316.16,572.7,0.303,67,Back to School,Cash,Extended 24M,3.7,0,EMP_140
+200252,2024-04-26,UK,Manchester,STORE_6,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,64,Black,1076.75,716.02,1,0.05,1022.91,716.02,306.89,0.3,10,Black Friday,PayPal,Extended 24M,4.9,0,EMP_145
+200253,2024-05-09,Germany,Berlin,STORE_9,Online,Google,Pixel 8,Google Devices Supply,128,Black,1118.58,707.07,2,0.0,2237.16,1414.14,823.02,0.368,26,Back to School,Apple Pay,Extended 24M,4.7,0,EMP_117
+200254,2024-08-24,USA,Chicago,STORE_4,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,128,Blue,1090.96,630.38,1,0.15,927.32,630.38,296.94,0.32,63,Black Friday,Cash,Standard 12M,4.9,1,EMP_112
+200255,2024-09-01,USA,New York,STORE_7,Online,Apple,iPhone 15,Apple Distribution Ltd,128,Blue,363.59,204.89,1,0.0,363.59,204.89,158.7,0.436,64,Back to School,PayPal,Extended 24M,4.5,0,EMP_139
+200256,2024-12-03,USA,Los Angeles,STORE_2,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Green,701.52,387.49,2,0.0,1403.04,774.98,628.06,0.448,31,Back to School,Google Pay,Extended 24M,4.1,0,EMP_103
+200257,2024-03-21,USA,New York,STORE_7,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,256,Red,1009.98,627.52,2,0.15,1716.97,1255.04,461.93,0.269,12,Back to School,Cash,Extended 24M,3.9,1,EMP_138
+200258,2024-10-18,UK,Manchester,STORE_6,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,White,1084.14,727.43,4,0.15,3686.08,2909.72,776.36,0.211,26,None,Cash,Standard 12M,3.9,0,EMP_164
+200259,2024-08-03,UK,London,STORE_4,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,128,Silver,867.96,616.84,4,0.0,3471.84,2467.36,1004.48,0.289,38,None,Credit Card,Standard 12M,4.4,0,EMP_143
+200260,2024-08-24,Ukraine,Lviv,STORE_10,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,128,Red,1039.72,620.12,2,0.0,2079.44,1240.24,839.2,0.404,79,Black Friday,Apple Pay,Standard 12M,4.6,0,EMP_162
+200261,2024-04-11,USA,New York,STORE_4,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,512,Silver,587.94,343.54,2,0.15,999.5,687.08,312.42,0.313,48,Back to School,PayPal,Extended 24M,4.2,0,EMP_138
+200262,2024-10-30,UK,Manchester,STORE_8,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Silver,473.81,290.52,3,0.0,1421.43,871.56,549.87,0.387,58,Black Friday,Apple Pay,Standard 12M,4.3,1,EMP_160
+200263,2024-06-20,Ukraine,Kyiv,STORE_6,Online,OnePlus,OnePlus 10,OnePlus Distribution,128,Black,616.6,386.42,1,0.1,554.94,386.42,168.52,0.304,17,Holiday Sale,Apple Pay,Standard 12M,4.1,1,EMP_105
+200264,2024-06-16,Ukraine,Lviv,STORE_10,Store,Google,Pixel 8,Google Devices Supply,512,Red,568.4,375.62,1,0.0,568.4,375.62,192.78,0.339,51,Black Friday,Cash,Extended 24M,4.5,1,EMP_123
+200265,2024-11-23,UK,London,STORE_8,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Green,696.73,421.48,1,0.05,661.89,421.48,240.41,0.363,75,Black Friday,PayPal,Extended 24M,4.3,0,EMP_133
+200266,2024-01-12,Poland,Warsaw,STORE_2,Store,Apple,iPhone 15,Apple Distribution Ltd,256,White,785.05,475.08,3,0.05,2237.39,1425.24,812.15,0.363,68,Holiday Sale,Credit Card,Standard 12M,3.8,1,EMP_118
+200267,2024-03-17,UK,London,STORE_7,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,Blue,409.8,304.99,1,0.0,409.8,304.99,104.81,0.256,75,None,Apple Pay,Extended 24M,4.4,0,EMP_154
+200268,2024-02-27,Ukraine,Kyiv,STORE_8,Store,Apple,iPhone 14,Apple Distribution Ltd,256,Black,375.7,218.69,1,0.0,375.7,218.69,157.01,0.418,46,None,Cash,Standard 12M,4.6,0,EMP_145
+200269,2024-06-28,USA,Chicago,STORE_1,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,256,Green,668.12,427.08,4,0.0,2672.48,1708.32,964.16,0.361,27,None,Apple Pay,Standard 12M,3.8,0,EMP_157
+200270,2024-12-19,Ukraine,Lviv,STORE_1,Store,Google,Pixel 7,Google Devices Supply,512,Red,1149.02,829.46,2,0.1,2068.24,1658.92,409.32,0.198,27,Black Friday,Apple Pay,Standard 12M,4.6,0,EMP_148
+200271,2024-06-11,Poland,Warsaw,STORE_9,Online,Google,Pixel 8,Google Devices Supply,256,Green,471.78,353.22,2,0.15,802.03,706.44,95.59,0.119,5,Black Friday,Cash,Extended 24M,5.0,0,EMP_135
+200272,2024-02-22,USA,New York,STORE_7,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,512,Black,815.99,596.85,4,0.0,3263.96,2387.4,876.56,0.269,16,None,Google Pay,Extended 24M,4.4,0,EMP_156
+200273,2024-04-15,Poland,Krakow,STORE_9,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Black,744.47,516.93,2,0.0,1488.94,1033.86,455.08,0.306,38,Black Friday,Apple Pay,Extended 24M,4.0,0,EMP_151
+200274,2024-09-16,USA,Los Angeles,STORE_1,Online,Google,Pixel 7,Google Devices Supply,128,White,565.65,379.2,2,0.05,1074.73,758.4,316.33,0.294,53,Back to School,Credit Card,Standard 12M,4.8,0,EMP_110
+200275,2024-06-21,Poland,Krakow,STORE_3,Store,Apple,iPhone 14,Apple Distribution Ltd,64,White,561.9,403.43,2,0.0,1123.8,806.86,316.94,0.282,20,Holiday Sale,Apple Pay,Standard 12M,4.5,0,EMP_132
+200276,2024-06-09,UK,London,STORE_1,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Black,867.73,569.74,4,0.0,3470.92,2278.96,1191.96,0.343,17,Holiday Sale,Apple Pay,Extended 24M,4.2,1,EMP_167
+200277,2024-02-20,UK,London,STORE_9,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,256,Green,1100.49,806.64,4,0.1,3961.76,3226.56,735.2,0.186,68,Black Friday,Cash,Extended 24M,4.9,0,EMP_112
+200278,2024-03-04,USA,New York,STORE_5,Online,Xiaomi,Mi 11,Xiaomi Global Supply,512,Red,554.35,341.51,2,0.05,1053.27,683.02,370.25,0.352,8,Black Friday,Google Pay,Extended 24M,4.0,1,EMP_161
+200279,2024-04-15,Germany,Berlin,STORE_9,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,128,Blue,563.77,390.1,1,0.1,507.39,390.1,117.29,0.231,6,Holiday Sale,Credit Card,Extended 24M,3.9,0,EMP_112
+200280,2024-01-07,Germany,Berlin,STORE_10,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,512,Black,1172.16,718.07,1,0.15,996.34,718.07,278.27,0.279,58,Holiday Sale,Cash,Standard 12M,4.1,0,EMP_126
+200281,2024-07-05,Ukraine,Lviv,STORE_1,Store,Apple,iPhone 15,Apple Distribution Ltd,512,Green,1193.39,662.78,4,0.0,4773.56,2651.12,2122.44,0.445,39,None,Apple Pay,Extended 24M,4.3,1,EMP_120
+200282,2024-03-22,Germany,Berlin,STORE_5,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,256,Blue,529.56,306.26,2,0.0,1059.12,612.52,446.6,0.422,24,Back to School,Apple Pay,Extended 24M,3.8,0,EMP_169
+200283,2024-08-07,UK,Manchester,STORE_6,Online,Apple,iPhone 13,Apple Distribution Ltd,128,Silver,1133.15,624.53,3,0.0,3399.45,1873.59,1525.86,0.449,16,None,Cash,Standard 12M,4.8,1,EMP_157
+200284,2024-06-06,USA,Los Angeles,STORE_2,Online,OnePlus,OnePlus 10,OnePlus Distribution,128,Silver,362.55,205.36,3,0.0,1087.65,616.08,471.57,0.434,48,Holiday Sale,Cash,Standard 12M,4.5,1,EMP_139
+200285,2024-01-25,USA,Los Angeles,STORE_2,Store,Google,Pixel 8,Google Devices Supply,512,Silver,828.35,538.06,2,0.0,1656.7,1076.12,580.58,0.35,41,Back to School,Cash,Standard 12M,4.3,0,EMP_126
+200286,2024-07-05,Poland,Warsaw,STORE_6,Store,Google,Pixel 8,Google Devices Supply,128,Green,303.21,180.27,4,0.0,1212.84,721.08,491.76,0.405,30,Black Friday,PayPal,Standard 12M,4.2,0,EMP_104
+200287,2024-05-09,Poland,Warsaw,STORE_4,Store,Google,Pixel 8,Google Devices Supply,128,Black,363.41,239.34,3,0.0,1090.23,718.02,372.21,0.341,53,Back to School,Google Pay,Extended 24M,4.3,1,EMP_137
+200288,2024-02-08,UK,London,STORE_2,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,64,Green,693.6,473.03,1,0.0,693.6,473.03,220.57,0.318,79,Holiday Sale,Credit Card,Standard 12M,5.0,0,EMP_134
+200289,2024-04-30,Germany,Munich,STORE_3,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Silver,1180.34,752.57,1,0.0,1180.34,752.57,427.77,0.362,16,None,Credit Card,Extended 24M,4.4,1,EMP_111
+200290,2024-06-08,UK,London,STORE_9,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,256,Black,1087.19,814.6,3,0.15,2772.33,2443.8,328.53,0.119,80,Back to School,PayPal,Standard 12M,4.2,0,EMP_147
+200291,2024-05-21,Ukraine,Kyiv,STORE_2,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,256,White,752.6,489.78,4,0.1,2709.36,1959.12,750.24,0.277,28,Black Friday,Google Pay,Extended 24M,3.7,0,EMP_131
+200292,2024-08-19,Ukraine,Lviv,STORE_6,Online,OnePlus,OnePlus 11,OnePlus Distribution,256,Green,1047.02,582.53,3,0.1,2826.95,1747.59,1079.36,0.382,46,Back to School,PayPal,Standard 12M,4.6,0,EMP_146
+200293,2024-04-27,Poland,Krakow,STORE_6,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,256,White,315.08,207.85,3,0.05,897.98,623.55,274.43,0.306,57,Back to School,Credit Card,Standard 12M,3.6,0,EMP_162
+200294,2024-03-19,UK,Manchester,STORE_3,Store,Apple,iPhone 15,Apple Distribution Ltd,512,Black,940.85,685.95,4,0.1,3387.06,2743.8,643.26,0.19,41,Black Friday,PayPal,Standard 12M,4.2,0,EMP_131
+200295,2024-08-13,UK,London,STORE_9,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,Green,473.07,333.3,3,0.15,1206.33,999.9,206.43,0.171,20,Black Friday,Credit Card,Extended 24M,3.8,0,EMP_149
+200296,2024-05-30,USA,Los Angeles,STORE_2,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,256,Black,985.12,607.42,1,0.15,837.35,607.42,229.93,0.275,29,Holiday Sale,Cash,Extended 24M,3.9,0,EMP_141
+200297,2024-04-26,Ukraine,Lviv,STORE_2,Online,Apple,iPhone 13,Apple Distribution Ltd,64,Red,714.2,426.72,4,0.05,2713.96,1706.88,1007.08,0.371,58,Back to School,Cash,Extended 24M,4.9,0,EMP_131
+200298,2024-01-28,UK,Manchester,STORE_7,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Red,1016.76,724.03,3,0.1,2745.25,2172.09,573.16,0.209,66,Holiday Sale,Google Pay,Standard 12M,4.3,0,EMP_160
+200299,2024-02-04,UK,London,STORE_2,Store,OnePlus,OnePlus 11,OnePlus Distribution,256,White,696.38,521.31,1,0.05,661.56,521.31,140.25,0.212,64,Holiday Sale,PayPal,Standard 12M,4.8,0,EMP_155
+200300,2024-04-22,Germany,Munich,STORE_7,Online,Google,Pixel 8,Google Devices Supply,256,White,452.3,294.95,4,0.0,1809.2,1179.8,629.4,0.348,52,Black Friday,Google Pay,Extended 24M,4.0,0,EMP_136
+200301,2024-04-23,USA,Chicago,STORE_7,Store,Apple,iPhone 15,Apple Distribution Ltd,256,Silver,595.59,428.23,3,0.0,1786.77,1284.69,502.08,0.281,58,Holiday Sale,Cash,Extended 24M,3.6,0,EMP_146
+200302,2024-12-15,UK,London,STORE_7,Store,Google,Pixel 8,Google Devices Supply,512,Silver,1048.72,655.44,1,0.0,1048.72,655.44,393.28,0.375,53,Back to School,Google Pay,Extended 24M,3.9,0,EMP_125
+200303,2024-05-28,USA,Los Angeles,STORE_9,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,White,467.61,333.06,2,0.15,794.94,666.12,128.82,0.162,26,Back to School,Google Pay,Standard 12M,4.5,0,EMP_117
+200304,2024-01-31,Germany,Berlin,STORE_2,Store,Xiaomi,Mi 11,Xiaomi Global Supply,128,White,698.27,499.98,2,0.05,1326.71,999.96,326.75,0.246,68,None,Google Pay,Standard 12M,4.2,0,EMP_134
+200305,2024-06-09,Ukraine,Kyiv,STORE_6,Store,Apple,iPhone 14,Apple Distribution Ltd,64,Red,1101.24,702.6,4,0.15,3744.22,2810.4,933.82,0.249,35,Holiday Sale,PayPal,Extended 24M,4.8,0,EMP_108
+200306,2024-11-04,Ukraine,Kyiv,STORE_5,Store,Apple,iPhone 13,Apple Distribution Ltd,64,Silver,931.11,637.17,3,0.0,2793.33,1911.51,881.82,0.316,31,None,PayPal,Standard 12M,5.0,1,EMP_139
+200307,2024-03-09,Ukraine,Kyiv,STORE_5,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,512,White,788.53,493.1,4,0.0,3154.12,1972.4,1181.72,0.375,33,None,Cash,Standard 12M,4.0,0,EMP_127
+200308,2024-12-02,Poland,Krakow,STORE_7,Store,Google,Pixel 8,Google Devices Supply,512,Black,861.77,606.0,3,0.1,2326.78,1818.0,508.78,0.219,31,Holiday Sale,Apple Pay,Standard 12M,3.8,1,EMP_160
+200309,2024-10-30,UK,London,STORE_10,Store,OnePlus,OnePlus 10,OnePlus Distribution,256,Red,1031.2,586.62,3,0.05,2938.92,1759.86,1179.06,0.401,20,Black Friday,Apple Pay,Standard 12M,4.3,1,EMP_138
+200310,2024-04-06,Ukraine,Kyiv,STORE_2,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Blue,905.01,515.07,4,0.1,3258.04,2060.28,1197.76,0.368,60,Back to School,Cash,Standard 12M,4.8,1,EMP_140
+200311,2024-08-13,Poland,Krakow,STORE_9,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,128,Black,464.66,309.23,2,0.0,929.32,618.46,310.86,0.335,65,None,Credit Card,Standard 12M,4.4,0,EMP_156
+200312,2024-11-25,Ukraine,Lviv,STORE_3,Online,Apple,iPhone 13,Apple Distribution Ltd,128,Blue,867.38,580.19,2,0.05,1648.02,1160.38,487.64,0.296,52,Holiday Sale,PayPal,Standard 12M,3.7,0,EMP_107
+200313,2024-08-24,UK,London,STORE_4,Online,OnePlus,OnePlus 10,OnePlus Distribution,128,Black,530.09,379.92,3,0.1,1431.24,1139.76,291.48,0.204,28,Holiday Sale,Apple Pay,Standard 12M,4.0,0,EMP_128
+200314,2024-07-29,Germany,Berlin,STORE_9,Online,Apple,iPhone 13,Apple Distribution Ltd,512,White,741.27,411.12,2,0.0,1482.54,822.24,660.3,0.445,49,Holiday Sale,PayPal,Extended 24M,3.7,1,EMP_109
+200315,2024-10-21,Poland,Krakow,STORE_4,Store,OnePlus,OnePlus 11,OnePlus Distribution,256,Silver,1045.16,764.15,4,0.0,4180.64,3056.6,1124.04,0.269,11,None,PayPal,Extended 24M,4.4,1,EMP_101
+200316,2024-12-02,Poland,Warsaw,STORE_5,Store,Apple,iPhone 15,Apple Distribution Ltd,128,Green,1036.06,751.09,4,0.0,4144.24,3004.36,1139.88,0.275,23,Back to School,Apple Pay,Extended 24M,4.5,0,EMP_166
+200317,2024-02-29,Germany,Berlin,STORE_2,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,Black,903.31,548.66,3,0.05,2574.43,1645.98,928.45,0.361,74,Black Friday,Credit Card,Extended 24M,4.6,0,EMP_122
+200318,2024-07-13,Ukraine,Lviv,STORE_4,Online,OnePlus,OnePlus 11,OnePlus Distribution,64,Black,770.5,470.02,4,0.1,2773.8,1880.08,893.72,0.322,18,Back to School,Apple Pay,Extended 24M,4.2,0,EMP_166
+200319,2024-07-04,USA,Los Angeles,STORE_3,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,White,704.06,510.29,2,0.0,1408.12,1020.58,387.54,0.275,61,Back to School,Cash,Extended 24M,4.1,0,EMP_130
+200320,2024-02-22,Poland,Warsaw,STORE_2,Online,Apple,iPhone 13,Apple Distribution Ltd,64,Red,699.91,513.12,3,0.15,1784.77,1539.36,245.41,0.138,61,Black Friday,Google Pay,Standard 12M,4.6,0,EMP_148
+200321,2024-03-11,Poland,Warsaw,STORE_5,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Black,436.0,259.2,1,0.0,436.0,259.2,176.8,0.406,75,Back to School,PayPal,Standard 12M,3.9,0,EMP_140
+200322,2024-12-12,Ukraine,Lviv,STORE_8,Online,Apple,iPhone 13,Apple Distribution Ltd,256,Red,352.56,201.8,4,0.0,1410.24,807.2,603.04,0.428,78,Holiday Sale,Google Pay,Extended 24M,4.6,0,EMP_102
+200323,2024-07-07,Ukraine,Lviv,STORE_2,Online,Xiaomi,Mi 11,Xiaomi Global Supply,256,Red,547.33,371.36,1,0.0,547.33,371.36,175.97,0.322,71,Black Friday,PayPal,Extended 24M,4.3,0,EMP_131
+200324,2024-02-10,Ukraine,Kyiv,STORE_5,Store,Google,Pixel 8,Google Devices Supply,512,Green,531.47,378.87,2,0.0,1062.94,757.74,305.2,0.287,75,Black Friday,PayPal,Standard 12M,4.5,0,EMP_151
+200325,2024-07-19,USA,Chicago,STORE_7,Store,Google,Pixel 7,Google Devices Supply,64,Silver,728.08,495.01,4,0.0,2912.32,1980.04,932.28,0.32,29,Black Friday,Google Pay,Extended 24M,4.9,1,EMP_151
+200326,2024-05-03,Ukraine,Lviv,STORE_2,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Green,1154.49,857.76,3,0.15,2943.95,2573.28,370.67,0.126,64,Black Friday,PayPal,Extended 24M,3.7,0,EMP_160
+200327,2024-02-22,Ukraine,Lviv,STORE_9,Store,Xiaomi,Mi 11,Xiaomi Global Supply,128,Red,902.52,527.13,2,0.15,1534.28,1054.26,480.02,0.313,72,Holiday Sale,Google Pay,Standard 12M,3.9,0,EMP_142
+200328,2024-01-01,USA,Chicago,STORE_2,Store,Xiaomi,Mi 11,Xiaomi Global Supply,128,Green,1127.07,833.84,2,0.1,2028.73,1667.68,361.05,0.178,64,Back to School,PayPal,Standard 12M,3.6,1,EMP_103
+200329,2024-10-29,Poland,Krakow,STORE_1,Online,OnePlus,OnePlus 10,OnePlus Distribution,64,Silver,703.57,416.93,1,0.05,668.39,416.93,251.46,0.376,78,Holiday Sale,Apple Pay,Standard 12M,5.0,0,EMP_169
+200330,2024-10-17,Germany,Munich,STORE_6,Store,Google,Pixel 8,Google Devices Supply,128,Silver,380.99,284.51,3,0.15,971.52,853.53,117.99,0.121,60,Black Friday,Google Pay,Standard 12M,4.9,0,EMP_104
+200331,2024-12-16,Germany,Munich,STORE_3,Store,Xiaomi,Mi 11,Xiaomi Global Supply,512,Red,700.9,450.23,3,0.0,2102.7,1350.69,752.01,0.358,27,Holiday Sale,Cash,Extended 24M,4.7,0,EMP_142
+200332,2024-01-16,Poland,Krakow,STORE_1,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,64,White,1053.75,751.02,1,0.0,1053.75,751.02,302.73,0.287,62,Back to School,Google Pay,Standard 12M,3.7,1,EMP_152
+200333,2024-06-14,USA,Los Angeles,STORE_1,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,512,Silver,605.44,409.33,4,0.1,2179.58,1637.32,542.26,0.249,12,Holiday Sale,Cash,Extended 24M,4.5,0,EMP_101
+200334,2024-07-15,USA,Chicago,STORE_5,Online,Apple,iPhone 13,Apple Distribution Ltd,512,White,743.74,464.63,1,0.15,632.18,464.63,167.55,0.265,53,None,Apple Pay,Extended 24M,4.4,0,EMP_113
+200335,2024-01-24,Poland,Warsaw,STORE_10,Online,Google,Pixel 7,Google Devices Supply,512,White,689.02,448.5,1,0.0,689.02,448.5,240.52,0.349,65,Black Friday,Credit Card,Extended 24M,4.8,0,EMP_131
+200336,2024-10-16,Poland,Krakow,STORE_1,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Blue,865.78,580.65,1,0.05,822.49,580.65,241.84,0.294,44,Back to School,Google Pay,Standard 12M,4.4,1,EMP_161
+200337,2024-05-14,Ukraine,Kyiv,STORE_4,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,256,White,312.53,191.92,1,0.0,312.53,191.92,120.61,0.386,8,Holiday Sale,Google Pay,Extended 24M,4.9,0,EMP_118
+200338,2024-01-27,Poland,Krakow,STORE_2,Store,Apple,iPhone 14,Apple Distribution Ltd,256,Silver,1023.07,598.49,3,0.05,2915.75,1795.47,1120.28,0.384,7,None,Apple Pay,Standard 12M,4.3,1,EMP_141
+200339,2024-03-02,UK,Manchester,STORE_4,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Blue,787.61,439.55,1,0.1,708.85,439.55,269.3,0.38,69,Black Friday,Cash,Standard 12M,4.7,1,EMP_106
+200340,2024-11-05,UK,Manchester,STORE_9,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,256,Silver,1128.88,691.67,4,0.0,4515.52,2766.68,1748.84,0.387,77,Holiday Sale,Google Pay,Extended 24M,4.2,0,EMP_119
+200341,2024-02-17,USA,New York,STORE_6,Online,Samsung,Galaxy S21,Samsung Electronics Distribution,256,Black,575.7,327.94,3,0.1,1554.39,983.82,570.57,0.367,74,Holiday Sale,Cash,Standard 12M,3.8,0,EMP_109
+200342,2024-04-12,Poland,Warsaw,STORE_4,Online,Apple,iPhone 13,Apple Distribution Ltd,128,Silver,708.35,397.06,4,0.1,2550.06,1588.24,961.82,0.377,19,Black Friday,Apple Pay,Extended 24M,3.6,0,EMP_116
+200343,2024-06-04,Germany,Munich,STORE_7,Store,Google,Pixel 7,Google Devices Supply,256,Blue,965.27,572.24,3,0.1,2606.23,1716.72,889.51,0.341,41,None,Apple Pay,Standard 12M,3.9,1,EMP_156
+200344,2024-09-03,Poland,Krakow,STORE_7,Online,Google,Pixel 8,Google Devices Supply,512,Black,508.49,350.95,2,0.15,864.43,701.9,162.53,0.188,60,Back to School,Credit Card,Standard 12M,3.9,0,EMP_150
+200345,2024-11-23,Poland,Warsaw,STORE_9,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,256,Blue,701.4,451.44,4,0.15,2384.76,1805.76,579.0,0.243,22,Back to School,Credit Card,Extended 24M,3.8,0,EMP_168
+200346,2024-07-31,UK,Manchester,STORE_6,Online,Google,Pixel 8,Google Devices Supply,64,Green,1196.03,832.06,1,0.0,1196.03,832.06,363.97,0.304,33,Back to School,PayPal,Extended 24M,4.0,0,EMP_113
+200347,2024-06-17,Germany,Berlin,STORE_5,Online,Samsung,Galaxy S21,Samsung Electronics Distribution,512,Green,895.04,594.37,2,0.0,1790.08,1188.74,601.34,0.336,80,Black Friday,Apple Pay,Extended 24M,4.3,1,EMP_104
+200348,2024-10-02,USA,New York,STORE_7,Store,Google,Pixel 7,Google Devices Supply,64,Blue,568.22,321.46,2,0.0,1136.44,642.92,493.52,0.434,68,None,Credit Card,Standard 12M,4.7,1,EMP_126
+200349,2024-06-15,UK,Manchester,STORE_1,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,256,Black,427.46,262.86,4,0.0,1709.84,1051.44,658.4,0.385,20,Black Friday,PayPal,Extended 24M,3.7,1,EMP_129
+200350,2024-04-07,Poland,Warsaw,STORE_5,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Green,1151.22,840.61,2,0.15,1957.07,1681.22,275.85,0.141,55,Black Friday,Google Pay,Standard 12M,4.7,0,EMP_112
+200351,2024-06-01,Poland,Warsaw,STORE_4,Online,OnePlus,OnePlus 11,OnePlus Distribution,256,Black,308.56,212.33,4,0.05,1172.53,849.32,323.21,0.276,43,Back to School,Google Pay,Extended 24M,4.3,0,EMP_148
+200352,2024-09-07,Ukraine,Kyiv,STORE_1,Online,Apple,iPhone 13,Apple Distribution Ltd,512,White,992.88,608.64,2,0.1,1787.18,1217.28,569.9,0.319,75,Holiday Sale,PayPal,Extended 24M,4.4,0,EMP_100
+200353,2024-05-31,UK,Manchester,STORE_6,Store,Xiaomi,Mi 11,Xiaomi Global Supply,128,Blue,781.62,523.35,2,0.05,1485.08,1046.7,438.38,0.295,55,Holiday Sale,Cash,Extended 24M,4.1,0,EMP_136
+200354,2024-05-10,Ukraine,Kyiv,STORE_1,Store,Apple,iPhone 15,Apple Distribution Ltd,64,Blue,526.56,343.84,3,0.1,1421.71,1031.52,390.19,0.274,41,Black Friday,Cash,Extended 24M,4.7,0,EMP_125
+200355,2024-06-24,Germany,Berlin,STORE_2,Store,Google,Pixel 8,Google Devices Supply,256,Blue,312.2,227.89,3,0.0,936.6,683.67,252.93,0.27,32,Back to School,PayPal,Standard 12M,4.1,0,EMP_157
+200356,2024-05-05,Germany,Berlin,STORE_5,Store,Google,Pixel 8,Google Devices Supply,256,Green,1126.19,797.63,2,0.1,2027.14,1595.26,431.88,0.213,68,Holiday Sale,Cash,Standard 12M,4.1,0,EMP_104
+200357,2024-01-24,UK,Manchester,STORE_6,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,256,Green,636.12,357.22,2,0.1,1145.02,714.44,430.58,0.376,71,None,PayPal,Extended 24M,5.0,0,EMP_115
+200358,2024-08-28,Ukraine,Kyiv,STORE_2,Online,Google,Pixel 7,Google Devices Supply,64,Red,860.7,621.6,2,0.05,1635.33,1243.2,392.13,0.24,32,Black Friday,Apple Pay,Standard 12M,4.4,0,EMP_144
+200359,2024-02-22,Poland,Warsaw,STORE_4,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,128,Red,752.36,559.93,4,0.0,3009.44,2239.72,769.72,0.256,17,Black Friday,Credit Card,Extended 24M,4.1,0,EMP_113
+200360,2024-06-25,Germany,Munich,STORE_10,Online,OnePlus,OnePlus 10,OnePlus Distribution,512,Green,543.16,335.97,1,0.0,543.16,335.97,207.19,0.381,67,Holiday Sale,Credit Card,Standard 12M,3.8,0,EMP_167
+200361,2024-09-27,USA,Los Angeles,STORE_1,Online,Apple,iPhone 14,Apple Distribution Ltd,512,Green,1147.04,782.43,3,0.05,3269.06,2347.29,921.77,0.282,8,Holiday Sale,Apple Pay,Standard 12M,4.2,0,EMP_126
+200362,2024-09-12,USA,Los Angeles,STORE_10,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,256,Silver,738.05,459.34,1,0.1,664.25,459.34,204.91,0.308,58,Back to School,Cash,Extended 24M,4.6,0,EMP_162
+200363,2024-10-18,Ukraine,Lviv,STORE_2,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,128,Red,1088.51,690.1,3,0.0,3265.53,2070.3,1195.23,0.366,35,Holiday Sale,Cash,Standard 12M,3.8,0,EMP_111
+200364,2024-11-20,Germany,Berlin,STORE_4,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Black,676.34,376.67,4,0.1,2434.82,1506.68,928.14,0.381,32,Back to School,Apple Pay,Standard 12M,4.7,0,EMP_105
+200365,2024-12-16,UK,Manchester,STORE_1,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,White,489.15,279.46,3,0.15,1247.33,838.38,408.95,0.328,71,None,Apple Pay,Extended 24M,4.4,0,EMP_106
+200366,2024-11-07,Poland,Krakow,STORE_2,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,64,Green,516.14,337.49,4,0.0,2064.56,1349.96,714.6,0.346,59,None,PayPal,Standard 12M,4.0,0,EMP_150
+200367,2024-04-30,UK,London,STORE_4,Online,Google,Pixel 8,Google Devices Supply,256,Black,515.26,284.98,1,0.05,489.5,284.98,204.52,0.418,64,Black Friday,Apple Pay,Extended 24M,4.5,0,EMP_149
+200368,2024-02-05,UK,Manchester,STORE_8,Online,Apple,iPhone 14,Apple Distribution Ltd,64,Blue,834.37,623.31,4,0.0,3337.48,2493.24,844.24,0.253,12,Holiday Sale,Credit Card,Standard 12M,4.2,0,EMP_153
+200369,2024-09-22,Ukraine,Kyiv,STORE_6,Store,Google,Pixel 7,Google Devices Supply,128,Green,608.36,404.31,3,0.0,1825.08,1212.93,612.15,0.335,61,Black Friday,Google Pay,Standard 12M,4.5,0,EMP_114
+200370,2024-09-20,Ukraine,Kyiv,STORE_5,Online,Xiaomi,Mi 11,Xiaomi Global Supply,256,Black,703.14,432.01,2,0.0,1406.28,864.02,542.26,0.386,44,Black Friday,Apple Pay,Standard 12M,4.4,0,EMP_137
+200371,2024-07-25,Poland,Warsaw,STORE_8,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Red,473.13,272.68,2,0.05,898.95,545.36,353.59,0.393,27,Holiday Sale,PayPal,Standard 12M,4.2,0,EMP_154
+200372,2024-03-11,Ukraine,Lviv,STORE_3,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Green,1182.87,845.97,2,0.05,2247.45,1691.94,555.51,0.247,63,Black Friday,Credit Card,Extended 24M,4.3,0,EMP_123
+200373,2024-12-23,USA,New York,STORE_10,Store,Apple,iPhone 15,Apple Distribution Ltd,64,Blue,795.02,489.22,2,0.05,1510.54,978.44,532.1,0.352,40,None,Credit Card,Standard 12M,4.7,0,EMP_133
+200374,2024-05-11,Ukraine,Lviv,STORE_2,Online,OnePlus,OnePlus 10,OnePlus Distribution,128,Silver,739.92,487.5,3,0.1,1997.78,1462.5,535.28,0.268,10,Black Friday,Google Pay,Extended 24M,4.8,0,EMP_112
+200375,2024-11-30,Germany,Munich,STORE_7,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,256,Red,378.07,282.4,1,0.0,378.07,282.4,95.67,0.253,53,Black Friday,Cash,Standard 12M,4.1,0,EMP_166
+200376,2024-10-24,UK,London,STORE_8,Store,OnePlus,OnePlus 11,OnePlus Distribution,128,Black,517.59,337.86,4,0.0,2070.36,1351.44,718.92,0.347,75,None,PayPal,Standard 12M,4.9,1,EMP_102
+200377,2024-11-28,USA,Los Angeles,STORE_3,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Silver,415.94,253.25,1,0.15,353.55,253.25,100.3,0.284,25,Black Friday,Cash,Standard 12M,4.7,1,EMP_157
+200378,2024-09-27,Poland,Warsaw,STORE_6,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,128,Blue,646.6,426.94,2,0.1,1163.88,853.88,310.0,0.266,52,None,Google Pay,Standard 12M,4.7,0,EMP_132
+200379,2024-05-20,UK,Manchester,STORE_2,Online,OnePlus,OnePlus 10,OnePlus Distribution,256,Green,317.01,180.56,2,0.1,570.62,361.12,209.5,0.367,38,Black Friday,PayPal,Standard 12M,4.0,0,EMP_158
+200380,2024-10-10,Germany,Munich,STORE_9,Online,Google,Pixel 7,Google Devices Supply,256,White,761.92,532.67,1,0.05,723.82,532.67,191.15,0.264,72,Back to School,PayPal,Standard 12M,4.2,0,EMP_109
+200381,2024-03-09,USA,Los Angeles,STORE_4,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,White,1167.79,651.44,3,0.15,2977.86,1954.32,1023.54,0.344,74,Holiday Sale,Apple Pay,Standard 12M,3.9,0,EMP_130
+200382,2024-09-02,USA,Los Angeles,STORE_5,Store,Apple,iPhone 14,Apple Distribution Ltd,128,Silver,639.67,464.42,2,0.0,1279.34,928.84,350.5,0.274,72,Holiday Sale,PayPal,Extended 24M,4.8,1,EMP_162
+200383,2024-01-05,Poland,Warsaw,STORE_6,Online,Apple,iPhone 15,Apple Distribution Ltd,512,Silver,806.46,573.37,3,0.0,2419.38,1720.11,699.27,0.289,67,Back to School,PayPal,Standard 12M,4.4,0,EMP_163
+200384,2024-10-23,Poland,Warsaw,STORE_5,Online,Apple,iPhone 13,Apple Distribution Ltd,64,Red,660.2,393.84,4,0.0,2640.8,1575.36,1065.44,0.403,61,Back to School,Cash,Extended 24M,4.9,1,EMP_109
+200385,2024-01-12,Ukraine,Lviv,STORE_7,Online,Google,Pixel 7,Google Devices Supply,128,Red,680.28,508.31,2,0.0,1360.56,1016.62,343.94,0.253,33,Black Friday,Credit Card,Standard 12M,3.9,0,EMP_167
+200386,2024-07-24,Ukraine,Lviv,STORE_1,Store,Google,Pixel 8,Google Devices Supply,256,White,816.54,552.16,2,0.1,1469.77,1104.32,365.45,0.249,63,Back to School,Google Pay,Extended 24M,4.2,0,EMP_123
+200387,2024-07-17,Poland,Warsaw,STORE_10,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,Blue,632.3,425.05,1,0.05,600.68,425.05,175.63,0.292,5,Black Friday,PayPal,Extended 24M,4.4,0,EMP_139
+200388,2024-07-28,USA,Los Angeles,STORE_9,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,64,Green,788.62,549.36,2,0.15,1340.65,1098.72,241.93,0.18,18,Black Friday,PayPal,Standard 12M,3.6,0,EMP_109
+200389,2024-06-26,Ukraine,Lviv,STORE_7,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Red,800.2,553.73,4,0.15,2720.68,2214.92,505.76,0.186,37,Black Friday,PayPal,Standard 12M,4.9,0,EMP_147
+200390,2024-08-22,UK,Manchester,STORE_8,Store,Apple,iPhone 13,Apple Distribution Ltd,64,Red,1128.1,636.59,3,0.05,3215.08,1909.77,1305.31,0.406,17,Holiday Sale,Google Pay,Extended 24M,3.8,0,EMP_166
+200391,2024-03-15,Poland,Krakow,STORE_8,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,512,Red,803.02,577.97,2,0.0,1606.04,1155.94,450.1,0.28,8,Holiday Sale,Apple Pay,Extended 24M,4.4,0,EMP_137
+200392,2024-11-02,USA,Los Angeles,STORE_6,Online,Google,Pixel 7,Google Devices Supply,64,White,790.3,454.9,4,0.15,2687.02,1819.6,867.42,0.323,27,None,Credit Card,Extended 24M,4.6,0,EMP_133
+200393,2024-10-26,Ukraine,Kyiv,STORE_2,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,512,Silver,1138.81,771.98,2,0.0,2277.62,1543.96,733.66,0.322,34,Back to School,PayPal,Extended 24M,3.9,1,EMP_120
+200394,2024-02-07,UK,Manchester,STORE_4,Online,Google,Pixel 8,Google Devices Supply,512,Green,465.93,265.72,1,0.1,419.34,265.72,153.62,0.366,76,Holiday Sale,Credit Card,Extended 24M,4.9,0,EMP_160
+200395,2024-04-24,UK,Manchester,STORE_10,Store,Google,Pixel 8,Google Devices Supply,512,Silver,1136.73,690.64,1,0.15,966.22,690.64,275.58,0.285,76,Holiday Sale,Apple Pay,Extended 24M,3.8,0,EMP_164
+200396,2024-08-24,Ukraine,Kyiv,STORE_8,Store,Google,Pixel 8,Google Devices Supply,128,Silver,610.97,456.29,1,0.0,610.97,456.29,154.68,0.253,44,Back to School,Credit Card,Standard 12M,3.8,0,EMP_166
+200397,2024-10-04,USA,Los Angeles,STORE_5,Store,Google,Pixel 7,Google Devices Supply,128,Silver,980.11,606.51,3,0.0,2940.33,1819.53,1120.8,0.381,50,None,Cash,Extended 24M,4.5,0,EMP_164
+200398,2024-11-21,Germany,Berlin,STORE_10,Online,Apple,iPhone 13,Apple Distribution Ltd,64,Black,1001.36,628.97,4,0.1,3604.9,2515.88,1089.02,0.302,50,Holiday Sale,Google Pay,Standard 12M,5.0,0,EMP_120
+200399,2024-09-25,Ukraine,Lviv,STORE_7,Store,Google,Pixel 8,Google Devices Supply,512,Black,558.69,406.88,1,0.0,558.69,406.88,151.81,0.272,14,Back to School,Credit Card,Standard 12M,4.9,0,EMP_134
+200400,2024-12-21,USA,Los Angeles,STORE_10,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,128,Green,1071.27,614.99,3,0.15,2731.74,1844.97,886.77,0.325,5,None,Credit Card,Standard 12M,4.6,1,EMP_129
+200401,2024-06-21,Germany,Munich,STORE_7,Store,Samsung,Galaxy S22,Samsung Electronics Distribution,512,Black,611.21,417.49,4,0.0,2444.84,1669.96,774.88,0.317,43,Back to School,Cash,Extended 24M,4.3,0,EMP_105
+200402,2024-02-14,Poland,Warsaw,STORE_10,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,512,Red,646.4,367.32,1,0.05,614.08,367.32,246.76,0.402,74,Holiday Sale,Credit Card,Standard 12M,3.8,0,EMP_167
+200403,2024-01-31,Poland,Warsaw,STORE_5,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,256,Blue,433.71,313.56,4,0.0,1734.84,1254.24,480.6,0.277,62,Holiday Sale,Apple Pay,Extended 24M,4.0,1,EMP_170
+200404,2024-10-04,USA,Los Angeles,STORE_5,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Black,400.69,238.19,2,0.0,801.38,476.38,325.0,0.406,25,Back to School,Cash,Extended 24M,4.3,0,EMP_100
+200405,2024-12-05,UK,Manchester,STORE_1,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Green,536.91,330.39,2,0.0,1073.82,660.78,413.04,0.385,69,None,Apple Pay,Extended 24M,4.8,1,EMP_126
+200406,2024-09-28,USA,Los Angeles,STORE_2,Store,Google,Pixel 7,Google Devices Supply,512,Red,1189.56,655.5,2,0.15,2022.25,1311.0,711.25,0.352,74,Holiday Sale,Google Pay,Extended 24M,4.5,1,EMP_109
+200407,2024-12-10,Poland,Krakow,STORE_7,Store,Apple,iPhone 14,Apple Distribution Ltd,64,Silver,807.22,600.49,4,0.05,3067.44,2401.96,665.48,0.217,30,Black Friday,Apple Pay,Extended 24M,4.0,0,EMP_112
+200408,2024-05-03,UK,London,STORE_3,Store,Google,Pixel 7,Google Devices Supply,256,Silver,876.22,593.58,2,0.1,1577.2,1187.16,390.04,0.247,73,Back to School,Credit Card,Extended 24M,4.9,0,EMP_144
+200409,2024-02-23,USA,New York,STORE_6,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Red,1136.29,629.01,1,0.15,965.85,629.01,336.84,0.349,77,Back to School,Google Pay,Extended 24M,4.9,0,EMP_147
+200410,2024-04-23,Ukraine,Kyiv,STORE_2,Online,Google,Pixel 8,Google Devices Supply,64,Blue,984.0,583.79,4,0.1,3542.4,2335.16,1207.24,0.341,34,Back to School,Apple Pay,Extended 24M,4.2,1,EMP_138
+200411,2024-02-23,Poland,Warsaw,STORE_8,Online,Google,Pixel 8,Google Devices Supply,512,Green,621.71,345.16,4,0.0,2486.84,1380.64,1106.2,0.445,73,None,Credit Card,Standard 12M,4.8,0,EMP_156
+200412,2024-06-13,Poland,Krakow,STORE_7,Online,Google,Pixel 8,Google Devices Supply,256,Green,856.96,549.93,1,0.05,814.11,549.93,264.18,0.325,41,None,Cash,Standard 12M,3.8,0,EMP_126
+200413,2024-03-14,Poland,Krakow,STORE_9,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,Silver,1169.12,745.72,1,0.15,993.75,745.72,248.03,0.25,35,Black Friday,PayPal,Extended 24M,4.1,0,EMP_162
+200414,2024-04-17,Ukraine,Lviv,STORE_8,Store,Xiaomi,Mi 11,Xiaomi Global Supply,128,Blue,764.84,456.23,4,0.05,2906.39,1824.92,1081.47,0.372,27,Back to School,Google Pay,Extended 24M,4.3,0,EMP_109
+200415,2024-01-26,Germany,Munich,STORE_3,Store,Apple,iPhone 13,Apple Distribution Ltd,128,Green,370.61,268.82,3,0.05,1056.24,806.46,249.78,0.236,24,Back to School,Google Pay,Standard 12M,4.9,0,EMP_128
+200416,2024-10-31,Poland,Warsaw,STORE_1,Online,Google,Pixel 8,Google Devices Supply,64,Green,537.1,394.43,2,0.15,913.07,788.86,124.21,0.136,41,Holiday Sale,Cash,Standard 12M,4.8,0,EMP_165
+200417,2024-06-11,UK,Manchester,STORE_8,Store,OnePlus,OnePlus 11,OnePlus Distribution,64,Silver,488.53,345.59,3,0.05,1392.31,1036.77,355.54,0.255,41,Holiday Sale,Apple Pay,Extended 24M,4.8,0,EMP_157
+200418,2024-09-22,USA,New York,STORE_7,Store,Samsung,Galaxy S23,Samsung Electronics Distribution,128,Red,1176.32,697.93,4,0.0,4705.28,2791.72,1913.56,0.407,18,Holiday Sale,Cash,Extended 24M,4.0,0,EMP_151
+200419,2024-11-30,USA,New York,STORE_2,Online,Apple,iPhone 15 Pro,Apple Distribution Ltd,64,Green,1195.9,696.08,1,0.0,1195.9,696.08,499.82,0.418,35,Black Friday,Credit Card,Standard 12M,3.7,0,EMP_166
+200420,2024-05-14,Poland,Krakow,STORE_10,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,256,Black,1047.38,720.88,1,0.1,942.64,720.88,221.76,0.235,18,Black Friday,PayPal,Standard 12M,4.1,0,EMP_160
+200421,2024-10-20,USA,New York,STORE_5,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,128,White,416.71,280.07,1,0.0,416.71,280.07,136.64,0.328,14,None,Credit Card,Extended 24M,5.0,0,EMP_130
+200422,2024-05-27,UK,London,STORE_5,Online,OnePlus,OnePlus 10,OnePlus Distribution,512,Red,765.5,438.47,2,0.0,1531.0,876.94,654.06,0.427,11,Back to School,PayPal,Extended 24M,3.7,0,EMP_104
+200423,2024-10-25,USA,Los Angeles,STORE_8,Store,OnePlus,OnePlus 10,OnePlus Distribution,512,Black,631.66,402.31,4,0.15,2147.64,1609.24,538.4,0.251,59,Holiday Sale,Credit Card,Extended 24M,3.9,0,EMP_140
+200424,2024-05-09,Poland,Warsaw,STORE_3,Online,OnePlus,OnePlus 11,OnePlus Distribution,256,Black,530.39,345.82,2,0.1,954.7,691.64,263.06,0.276,68,Black Friday,Cash,Extended 24M,3.9,0,EMP_109
+200425,2024-12-14,USA,Los Angeles,STORE_8,Store,OnePlus,OnePlus 10,OnePlus Distribution,256,Blue,855.34,515.46,3,0.0,2566.02,1546.38,1019.64,0.397,53,None,Cash,Extended 24M,4.1,0,EMP_104
+200426,2024-01-28,Ukraine,Lviv,STORE_8,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,512,Red,931.26,590.6,1,0.15,791.57,590.6,200.97,0.254,50,None,PayPal,Extended 24M,4.0,1,EMP_125
+200427,2024-01-19,Ukraine,Lviv,STORE_7,Online,Apple,iPhone 13,Apple Distribution Ltd,256,Silver,986.2,559.63,1,0.05,936.89,559.63,377.26,0.403,53,None,Google Pay,Standard 12M,4.4,0,EMP_105
+200428,2024-06-23,USA,Los Angeles,STORE_3,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Silver,935.98,687.9,1,0.05,889.18,687.9,201.28,0.226,64,Black Friday,Credit Card,Standard 12M,4.9,1,EMP_108
+200429,2024-02-08,USA,Los Angeles,STORE_10,Online,OnePlus,OnePlus 11,OnePlus Distribution,256,Silver,977.81,716.46,4,0.0,3911.24,2865.84,1045.4,0.267,32,Black Friday,Apple Pay,Standard 12M,4.9,0,EMP_141
+200430,2024-03-23,Poland,Krakow,STORE_3,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,256,White,569.25,338.37,3,0.1,1536.98,1015.11,521.87,0.34,44,Back to School,PayPal,Extended 24M,4.6,0,EMP_108
+200431,2024-09-24,USA,Chicago,STORE_10,Store,Xiaomi,Mi 11,Xiaomi Global Supply,256,Black,377.23,244.16,3,0.0,1131.69,732.48,399.21,0.353,59,None,Apple Pay,Standard 12M,4.3,0,EMP_139
+200432,2024-11-30,Ukraine,Lviv,STORE_6,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,512,Silver,645.62,426.39,1,0.05,613.34,426.39,186.95,0.305,53,Back to School,Cash,Extended 24M,3.7,0,EMP_156
+200433,2024-10-11,Ukraine,Lviv,STORE_2,Online,Apple,iPhone 14,Apple Distribution Ltd,256,Red,1050.65,755.48,2,0.05,1996.24,1510.96,485.28,0.243,6,Back to School,Apple Pay,Extended 24M,4.2,0,EMP_108
+200434,2024-05-21,USA,Los Angeles,STORE_10,Store,Apple,iPhone 15,Apple Distribution Ltd,128,Red,355.5,243.22,2,0.0,711.0,486.44,224.56,0.316,48,None,Credit Card,Extended 24M,3.6,0,EMP_137
+200435,2024-06-07,Poland,Warsaw,STORE_10,Online,Apple,iPhone 13,Apple Distribution Ltd,256,Blue,1069.31,773.3,2,0.0,2138.62,1546.6,592.02,0.277,32,Black Friday,Google Pay,Extended 24M,4.1,1,EMP_127
+200436,2024-06-12,Poland,Warsaw,STORE_9,Store,Apple,iPhone 13,Apple Distribution Ltd,128,White,627.49,404.45,1,0.0,627.49,404.45,223.04,0.355,78,Holiday Sale,PayPal,Standard 12M,4.5,0,EMP_145
+200437,2024-01-27,Ukraine,Kyiv,STORE_1,Online,Samsung,Galaxy A54,Samsung Electronics Distribution,256,Black,592.89,427.93,2,0.05,1126.49,855.86,270.63,0.24,66,Black Friday,Credit Card,Standard 12M,5.0,0,EMP_145
+200438,2024-03-15,USA,Los Angeles,STORE_9,Store,Google,Pixel 8,Google Devices Supply,128,White,1099.02,724.71,3,0.15,2802.5,2174.13,628.37,0.224,66,Back to School,Apple Pay,Standard 12M,5.0,0,EMP_107
+200439,2024-02-01,USA,Los Angeles,STORE_9,Store,Google,Pixel 7,Google Devices Supply,128,Blue,752.22,430.05,4,0.1,2707.99,1720.2,987.79,0.365,58,Holiday Sale,Google Pay,Extended 24M,4.1,0,EMP_124
+200440,2024-05-29,Germany,Munich,STORE_4,Online,Xiaomi,Redmi Note 12,Xiaomi Global Supply,128,Blue,1126.7,668.09,1,0.05,1070.37,668.09,402.28,0.376,67,Black Friday,Google Pay,Extended 24M,4.2,0,EMP_153
+200441,2024-08-25,USA,Chicago,STORE_3,Online,Apple,iPhone 15,Apple Distribution Ltd,128,Blue,465.45,273.07,3,0.0,1396.35,819.21,577.14,0.413,34,None,Credit Card,Extended 24M,4.7,0,EMP_154
+200442,2024-01-11,USA,Chicago,STORE_4,Store,OnePlus,OnePlus 11,OnePlus Distribution,512,Blue,405.28,228.92,4,0.0,1621.12,915.68,705.44,0.435,52,None,Google Pay,Standard 12M,4.0,0,EMP_147
+200443,2024-10-24,Poland,Warsaw,STORE_3,Online,Google,Pixel 7,Google Devices Supply,128,Silver,1178.33,854.0,3,0.15,3004.74,2562.0,442.74,0.147,45,Black Friday,Cash,Standard 12M,4.2,1,EMP_135
+200444,2024-07-11,Ukraine,Lviv,STORE_3,Online,Google,Pixel 8,Google Devices Supply,64,Black,488.11,331.69,3,0.0,1464.33,995.07,469.26,0.32,15,Holiday Sale,Credit Card,Standard 12M,3.8,0,EMP_127
+200445,2024-07-16,Ukraine,Kyiv,STORE_10,Online,Samsung,Galaxy S21,Samsung Electronics Distribution,512,Blue,401.43,258.76,4,0.15,1364.86,1035.04,329.82,0.242,9,None,PayPal,Standard 12M,4.2,0,EMP_148
+200446,2024-11-30,Ukraine,Kyiv,STORE_10,Store,OnePlus,OnePlus 10,OnePlus Distribution,64,Silver,961.83,560.3,1,0.1,865.65,560.3,305.35,0.353,7,Back to School,Google Pay,Standard 12M,4.8,0,EMP_101
+200447,2024-12-25,USA,New York,STORE_8,Store,Google,Pixel 8,Google Devices Supply,512,Black,495.1,312.52,1,0.15,420.84,312.52,108.32,0.257,79,Back to School,Apple Pay,Standard 12M,4.2,0,EMP_154
+200448,2024-03-15,Poland,Warsaw,STORE_6,Store,OnePlus,OnePlus 11,OnePlus Distribution,512,Blue,1104.61,789.84,2,0.05,2098.76,1579.68,519.08,0.247,68,Back to School,Google Pay,Extended 24M,4.9,0,EMP_150
+200449,2024-02-17,Ukraine,Kyiv,STORE_3,Online,Xiaomi,Mi 11,Xiaomi Global Supply,64,Black,516.66,346.7,2,0.0,1033.32,693.4,339.92,0.329,9,Back to School,Google Pay,Standard 12M,4.8,0,EMP_170
+200450,2024-07-09,Ukraine,Kyiv,STORE_2,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,512,Green,468.15,274.7,1,0.1,421.33,274.7,146.63,0.348,16,Holiday Sale,PayPal,Extended 24M,4.4,0,EMP_125
+200451,2024-07-19,Poland,Warsaw,STORE_1,Online,Google,Pixel 7,Google Devices Supply,128,Blue,849.63,633.71,2,0.1,1529.33,1267.42,261.91,0.171,58,Back to School,Cash,Extended 24M,4.0,1,EMP_155
+200452,2024-03-19,Poland,Warsaw,STORE_2,Store,Google,Pixel 8,Google Devices Supply,128,Blue,559.26,368.64,2,0.0,1118.52,737.28,381.24,0.341,13,None,PayPal,Extended 24M,3.7,0,EMP_122
+200453,2024-11-06,Poland,Warsaw,STORE_9,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Black,894.84,493.99,1,0.15,760.61,493.99,266.62,0.351,62,Back to School,Cash,Standard 12M,4.0,0,EMP_119
+200454,2024-09-28,USA,Chicago,STORE_3,Store,Apple,iPhone 15 Pro,Apple Distribution Ltd,512,Red,803.73,561.68,3,0.0,2411.19,1685.04,726.15,0.301,53,Back to School,Cash,Standard 12M,4.0,0,EMP_140
+200455,2024-04-18,USA,New York,STORE_6,Online,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Black,331.45,232.81,2,0.0,662.9,465.62,197.28,0.298,38,None,Google Pay,Extended 24M,3.6,0,EMP_116
+200456,2024-06-13,USA,Chicago,STORE_2,Store,Xiaomi,Mi 11,Xiaomi Global Supply,64,Silver,745.06,419.45,2,0.15,1266.6,838.9,427.7,0.338,72,Holiday Sale,PayPal,Standard 12M,3.8,0,EMP_141
+200457,2024-03-12,Ukraine,Lviv,STORE_4,Online,Apple,iPhone 15,Apple Distribution Ltd,64,Blue,1062.44,692.22,2,0.1,1912.39,1384.44,527.95,0.276,80,None,Cash,Extended 24M,4.6,0,EMP_110
+200458,2024-11-12,Poland,Krakow,STORE_6,Store,Xiaomi,Redmi Note 12,Xiaomi Global Supply,64,Red,439.89,322.05,3,0.1,1187.7,966.15,221.55,0.187,31,Black Friday,PayPal,Standard 12M,3.8,1,EMP_114
+200459,2024-01-11,Poland,Krakow,STORE_2,Online,OnePlus,OnePlus 11,OnePlus Distribution,512,Black,453.15,294.34,2,0.05,860.98,588.68,272.3,0.316,38,Holiday Sale,Credit Card,Standard 12M,4.6,1,EMP_159
+200460,2024-12-23,Ukraine,Kyiv,STORE_5,Store,Google,Pixel 8,Google Devices Supply,512,Red,748.92,487.97,2,0.05,1422.95,975.94,447.01,0.314,68,Holiday Sale,Google Pay,Standard 12M,4.8,0,EMP_156
+200461,2024-03-06,UK,Manchester,STORE_5,Online,Xiaomi,Mi 11,Xiaomi Global Supply,512,Black,369.77,222.23,2,0.0,739.54,444.46,295.08,0.399,43,Black Friday,Google Pay,Extended 24M,4.7,1,EMP_169
+200462,2024-12-29,USA,New York,STORE_6,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,64,Black,952.31,602.5,1,0.0,952.31,602.5,349.81,0.367,76,None,Credit Card,Standard 12M,4.9,0,EMP_143
+200463,2024-12-07,Germany,Munich,STORE_3,Online,Samsung,Galaxy S22,Samsung Electronics Distribution,128,Silver,382.94,280.74,1,0.0,382.94,280.74,102.2,0.267,76,Holiday Sale,PayPal,Extended 24M,3.7,1,EMP_169
+200464,2024-05-27,Ukraine,Lviv,STORE_10,Online,OnePlus,OnePlus 10,OnePlus Distribution,256,Blue,1159.8,709.79,4,0.05,4407.24,2839.16,1568.08,0.356,20,Black Friday,Credit Card,Standard 12M,3.9,0,EMP_161
+200465,2024-11-21,Ukraine,Lviv,STORE_2,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,256,Green,418.22,297.92,4,0.05,1589.24,1191.68,397.56,0.25,41,Holiday Sale,Cash,Extended 24M,4.0,0,EMP_102
+200466,2024-03-04,Germany,Munich,STORE_9,Online,OnePlus,OnePlus 11,OnePlus Distribution,512,Black,1059.55,628.72,1,0.15,900.62,628.72,271.9,0.302,37,None,Cash,Standard 12M,4.8,0,EMP_113
+200467,2024-04-23,Ukraine,Lviv,STORE_3,Store,OnePlus,OnePlus 10,OnePlus Distribution,128,White,850.26,486.4,4,0.0,3401.04,1945.6,1455.44,0.428,65,None,Apple Pay,Standard 12M,3.7,0,EMP_137
+200468,2024-10-29,Poland,Krakow,STORE_10,Online,Google,Pixel 7,Google Devices Supply,128,Green,1084.16,733.03,2,0.0,2168.32,1466.06,702.26,0.324,48,Black Friday,PayPal,Standard 12M,4.8,0,EMP_166
+200469,2024-01-04,USA,Chicago,STORE_9,Store,Samsung,Galaxy A54,Samsung Electronics Distribution,128,Silver,775.55,535.73,1,0.1,698.0,535.73,162.27,0.232,70,None,Apple Pay,Standard 12M,4.9,1,EMP_133
+200470,2024-03-22,Germany,Munich,STORE_5,Online,Google,Pixel 8,Google Devices Supply,128,Green,1164.31,748.38,2,0.05,2212.19,1496.76,715.43,0.323,52,None,PayPal,Standard 12M,4.3,0,EMP_160
+200471,2024-03-12,Poland,Krakow,STORE_1,Store,OnePlus,OnePlus 11,OnePlus Distribution,256,Green,984.77,623.21,4,0.15,3348.22,2492.84,855.38,0.255,51,Holiday Sale,PayPal,Extended 24M,3.8,0,EMP_122
+200472,2024-05-15,UK,Manchester,STORE_4,Online,Google,Pixel 8,Google Devices Supply,128,Silver,586.41,323.38,3,0.0,1759.23,970.14,789.09,0.449,31,Holiday Sale,Credit Card,Standard 12M,4.7,0,EMP_170
+200473,2024-02-07,USA,Chicago,STORE_1,Store,Samsung,Galaxy S21,Samsung Electronics Distribution,512,White,1182.6,684.69,1,0.0,1182.6,684.69,497.91,0.421,25,Holiday Sale,Cash,Standard 12M,3.9,0,EMP_104
+200474,2024-01-22,UK,London,STORE_1,Store,Apple,iPhone 15,Apple Distribution Ltd,128,White,426.46,267.07,3,0.0,1279.38,801.21,478.17,0.374,5,Holiday Sale,Google Pay,Standard 12M,4.4,0,EMP_148
+200475,2024-04-11,UK,London,STORE_5,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Silver,953.06,531.57,4,0.05,3621.63,2126.28,1495.35,0.413,25,Back to School,PayPal,Extended 24M,4.7,0,EMP_101
+200476,2024-04-16,Ukraine,Kyiv,STORE_6,Online,Samsung,Galaxy S23,Samsung Electronics Distribution,512,White,969.03,621.68,4,0.0,3876.12,2486.72,1389.4,0.358,29,None,Cash,Extended 24M,4.4,1,EMP_127
+200477,2024-11-30,Ukraine,Kyiv,STORE_2,Online,Google,Pixel 7,Google Devices Supply,64,Red,494.9,281.94,4,0.1,1781.64,1127.76,653.88,0.367,26,None,Credit Card,Standard 12M,4.9,1,EMP_151
+200478,2024-11-23,UK,London,STORE_7,Store,Xiaomi,Xiaomi 13,Xiaomi Global Supply,128,Red,814.7,469.69,1,0.05,773.97,469.69,304.28,0.393,37,Black Friday,Credit Card,Standard 12M,4.9,0,EMP_140
+200479,2024-03-31,Germany,Munich,STORE_4,Online,OnePlus,OnePlus 10,OnePlus Distribution,64,Black,1108.51,740.9,1,0.15,942.23,740.9,201.33,0.214,48,Holiday Sale,PayPal,Standard 12M,4.3,0,EMP_148
