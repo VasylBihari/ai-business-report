@@ -67,7 +67,7 @@ The final output is a **management-ready business report** generated with AI ass
 
 ## 📄 Example Report
 
-👉 [View Business Report (PDF)](link_here)
+👉 [View Business Report (PDF)](mobile_phone_sales/output/report.pdf)
 
 
 
