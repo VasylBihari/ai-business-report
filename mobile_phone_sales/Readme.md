@@ -69,24 +69,6 @@ The final output is a **management-ready business report** generated with AI ass
 
 👉 [View Business Report (PDF)](link_here)
 
----
 
-## 📂 Project Structure
 
-project/
-│
-├── data/
-│ └── mobile_phone_sales_dataset_v2.csv
-│
-├── notebooks/
-│ └── analysis.ipynb
-│
-├── reports/
-│ ├── business_report.md
-│ └── report.pdf
-│
-├── ai_data/
-│ └── mobile_store_ai_report_data.json
-│
-└── README.md
 
