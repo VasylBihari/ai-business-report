@@ -13,7 +13,7 @@ Python (Pandas), Data Cleaning, Data Modeling, OpenAI API
 - Created automated business report with insights & recommendations  
 
 ## 📈 Output
-👉 Executive AI Report (PDF): [LINK_HERE]
+👉 [Executive AI Report](https://github.com/VasylBihari/ai-business-report/blob/main/Shopify%2BGA4%2BAds_Performance_Analysis/output/report.pdf)
 
 ## 💡 Value
 Turns raw data into clear, actionable business decisions.
